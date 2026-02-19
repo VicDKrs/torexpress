@@ -183,3 +183,7 @@ p {
         grid-column: span 1;
     }
 }
+.logo {
+    width: 180px;      /* ajusta la mida si cal */
+    margin-bottom: 20px;
+}
