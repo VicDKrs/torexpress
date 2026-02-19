@@ -98,17 +98,38 @@ h2 {
 }
 
 /* CONTACTO */
-.contacto {
-    text-align: center;
-    padding: 120px 40px; /* abans eren 80px — ara hi ha més aire */
+.formulario {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
 }
 
-.contacto p {
-    margin-bottom: 30px; /* separa el text del botó */
+.formulario input,
+.formulario textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.formulario textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.formulario button {
+    background: #ffcc00;
+    border: none;
+    padding: 12px;
     font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
-.contacto .btn {
-    display: inline-block;
-    margin-top: 10px; /* assegura que no s'enganxi al text */
+.formulario button:hover {
+    background: #e6b800;
 }
