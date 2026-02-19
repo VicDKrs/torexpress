@@ -187,3 +187,6 @@ p {
     width: 180px;      /* ajusta la mida si cal */
     margin-bottom: 20px;
 }
+html {
+    scroll-behavior: smooth;
+}
