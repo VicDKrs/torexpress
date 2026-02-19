@@ -98,29 +98,42 @@ h2 {
 }
 
 /* CONTACTO */
+.contact-info {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.contact-info li {
+    margin-bottom: 8px;
+}
+
+/* FORMULARIO DE CONTACTO */
 .formulario {
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 15px;
-    margin-top: 30px;
+    max-width: 600px;
+    margin: 30px auto 0 auto;
 }
 
 .formulario input,
 .formulario textarea {
     padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 6px;
+    border-radius: 5px;
     font-size: 16px;
 }
 
+/* El textarea ocupa tota l’amplada */
 .formulario textarea {
+    grid-column: span 2;
     height: 120px;
     resize: vertical;
 }
 
+/* El botó també ocupa tota l’amplada */
 .formulario button {
+    grid-column: span 2;
     background: #ffcc00;
     border: none;
     padding: 12px;
