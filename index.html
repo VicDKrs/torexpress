@@ -158,14 +158,21 @@
                 <li><strong>Email:</strong> victor@torexpress.net</li>
             </ul>
 
-            <form class="contact-form">
-                <input type="text" placeholder="Nombre" required>
-                <input type="text" placeholder="Empresa">
-                <input type="tel" placeholder="Teléfono">
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Mensaje" required></textarea>
-                <button type="submit" class="btn">Enviar</button>
-            </form>
+            <form class="contact-form" action="https://formsubmit.co/mrvictorfc@gmail.com" method="POST">
+    <input type="text" name="nombre" placeholder="Nombre" required>
+    <input type="text" name="empresa" placeholder="Empresa">
+    <input type="tel" name="telefono" placeholder="Teléfono">
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+
+    <!-- Opcional: redirecció després d’enviar -->
+    <input type="hidden" name="_next" value="https://vicdkrs.github.io/torexpress/gracias.html">
+
+    <!-- Opcional: evitar spam -->
+    <input type="hidden" name="_captcha" value="false">
+
+    <button type="submit" class="btn">Enviar</button>
+</form>
         </div>
     </section>
 
