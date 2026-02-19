@@ -100,12 +100,15 @@ h2 {
 /* CONTACTO */
 .contacto {
     text-align: center;
+    padding: 120px 40px; /* abans eren 80px — ara hi ha més aire */
 }
 
-/* FOOTER */
-.footer {
-    background: #003366;
-    color: white;
-    text-align: center;
-    padding: 20px;
+.contacto p {
+    margin-bottom: 30px; /* separa el text del botó */
+    font-size: 18px;
+}
+
+.contacto .btn {
+    display: inline-block;
+    margin-top: 10px; /* assegura que no s'enganxi al text */
 }
