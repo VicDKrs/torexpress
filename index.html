@@ -7,102 +7,165 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
-
 <body>
 
-    <!-- NAVBAR -->
-    <header class="navbar">
-        <div class="logo">
-            <img src="img/logo.png" alt="TOR EXPRESS">
-            <span>TOR EXPRESS</span>
+    <!-- ================= HERO / HOME ================= -->
+    <header class="hero">
+        <div class="container">
+            <h1>Soluciones de transporte rápidas, fiables y adaptadas a tu negocio.</h1>
+            <p>Servicio nacional e internacional con respuesta inmediata y atención directa.</p>
+
+            <div class="hero-buttons">
+                <a href="#contacto" class="btn">Solicitar presupuesto</a>
+                <a href="#proveedores" class="btn btn-outline">Colaborar como proveedor</a>
+            </div>
+
+            <div class="hero-features">
+                <div class="feature">
+                    <h3>Transporte Nacional</h3>
+                    <p>Cobertura completa en toda España con recogidas flexibles y entregas puntuales.</p>
+                </div>
+                <div class="feature">
+                    <h3>Transporte Internacional</h3>
+                    <p>Operativa en Europa con seguimiento continuo y comunicación transparente.</p>
+                </div>
+                <div class="feature">
+                    <h3>Urgentes 24/7</h3>
+                    <p>Cuando cada minuto cuenta, ofrecemos soluciones inmediatas y personalizadas.</p>
+                </div>
+            </div>
         </div>
-        <nav>
-            <a href="#servicios">Servicios</a>
-            <a href="#ventajas">Ventajas</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
     </header>
 
-    <!-- HERO -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Soluciones de transporte rápidas y eficientes</h1>
-            <p>Especialistas en transporte exprés, distribución y logística personalizada.</p>
-            <a href="#contacto" class="btn">Contactar ahora</a>
-        </div>
-    </section>
+    <!-- ================= SERVICIOS ================= -->
+    <section id="servicios" class="section">
+        <div class="container">
+            <h2>Servicios</h2>
 
-    <!-- SERVICIOS -->
-    <section id="servicios" class="servicios">
-        <h2>Nuestros Servicios</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Transporte Nacional</h3>
+                    <p>Gestionamos envíos en todo el territorio nacional con rapidez, puntualidad y un trato cercano.</p>
+                </div>
 
-        <div class="servicios-grid">
-            <div class="servicio">
-                <h3>Transporte Exprés</h3>
-                <p>Envíos urgentes con máxima rapidez y seguimiento continuo.</p>
-            </div>
+                <div class="card">
+                    <h3>Transporte Internacional</h3>
+                    <p>Soluciones de transporte por carretera en Europa para cargas completas y parciales.</p>
+                </div>
 
-            <div class="servicio">
-                <h3>Distribución</h3>
-                <p>Reparto eficiente y adaptado a tus necesidades.</p>
-            </div>
+                <div class="card">
+                    <h3>Urgentes 24/7</h3>
+                    <p>Disponibilidad inmediata para envíos críticos con entrega garantizada en el menor tiempo posible.</p>
+                </div>
 
-            <div class="servicio">
-                <h3>Logística</h3>
-                <p>Soluciones completas para optimizar tu cadena logística.</p>
-            </div>
+                <div class="card">
+                    <h3>Distribución y Grupaje</h3>
+                    <p>Opciones eficientes para envíos recurrentes o cargas compartidas.</p>
+                </div>
 
-            <div class="servicio">
-                <h3>Servicio Personalizado</h3>
-                <p>Atención directa y soluciones a medida para cada cliente.</p>
+                <div class="card">
+                    <h3>Servicio Personalizado</h3>
+                    <p>Diseñamos soluciones a medida según el tipo de mercancía, destino y urgencia.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- VENTAJAS -->
-    <section id="ventajas" class="ventajas">
-        <h2>¿Por qué elegirnos?</h2>
+    <!-- ================= ÁREAS DE OPERACIÓN ================= -->
+    <section id="areas" class="section section-light">
+        <div class="container">
+            <h2>Áreas de Operación</h2>
 
-        <div class="ventajas-grid">
-            <div class="ventaja">
-                <h3>Rapidez</h3>
-                <p>Compromiso con los tiempos de entrega.</p>
-            </div>
+            <div class="grid">
+                <div class="card">
+                    <h3>Cataluña</h3>
+                    <p>Recogidas diarias y servicio flexible en toda la comunidad.</p>
+                </div>
 
-            <div class="ventaja">
-                <h3>Experiencia</h3>
-                <p>Años de trabajo en el sector del transporte.</p>
-            </div>
+                <div class="card">
+                    <h3>Península Ibérica</h3>
+                    <p>Cobertura completa en España y Portugal con colaboradores de confianza.</p>
+                </div>
 
-            <div class="ventaja">
-                <h3>Cobertura</h3>
-                <p>Amplia red de rutas y disponibilidad.</p>
-            </div>
-
-            <div class="ventaja">
-                <h3>Atención Personal</h3>
-                <p>Trato directo, profesional y cercano.</p>
+                <div class="card">
+                    <h3>Europa</h3>
+                    <p>Transporte internacional con tiempos de tránsito ajustados y máxima fiabilidad.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- CONTACTO -->
-    <section id="contacto" class="contacto">
-        <h2>Contacto</h2>
-        <p>¿Necesitas un envío o más información? Estamos aquí para ayudarte.</p>
+    <!-- ================= SOLUCIONES PARA EMPRESAS ================= -->
+    <section id="soluciones" class="section">
+        <div class="container">
+            <h2>Soluciones para Empresas</h2>
 
-        <form action="https://formsubmit.co/victor@torexpress.net" method="POST" class="formulario">
-            <input type="text" name="nombre" placeholder="Tu nombre" required>
-            <input type="email" name="email" placeholder="Tu correo" required>
-            <textarea name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
-            <button type="submit" class="btn">Enviar mensaje</button>
-        </form>
+            <div class="grid">
+                <div class="card">
+                    <h3>Industria</h3>
+                    <p>Transporte seguro y puntual para mercancías sensibles o urgentes.</p>
+                </div>
+
+                <div class="card">
+                    <h3>E-commerce y Logística</h3>
+                    <p>Soluciones rápidas y adaptadas a picos de demanda.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Distribuidores</h3>
+                    <p>Rutas regulares, entregas programadas y gestión optimizada de cargas.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Pequeñas Empresas</h3>
+                    <p>Servicio flexible, sin mínimos y con atención personalizada.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer class="footer">
-        <p>© 2024 TOR EXPRESS — Soluciones de Transporte</p>
-    </footer>
+    <!-- ================= PROVEEDORES ================= -->
+    <section id="proveedores" class="section section-light">
+        <div class="container">
+            <h2>Únete a nuestra red de transportistas</h2>
+            <p>Buscamos profesionales comprometidos para ampliar nuestra red de colaboradores. Ofrecemos comunicación clara, pagos puntuales y rutas constantes.</p>
+            <a href="#contacto" class="btn">Unirme como proveedor</a>
+        </div>
+    </section>
+
+    <!-- ================= SOBRE NOSOTROS ================= -->
+    <section id="nosotros" class="section">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>
+                TOR EXPRESS es una empresa orientada a ofrecer soluciones de transporte rápidas, eficientes y adaptadas a cada cliente.
+                Creemos en el trato directo, la puntualidad y la confianza como base de cada envío.
+                Nuestro objetivo es convertirnos en tu socio logístico de referencia.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= CONTACTO ================= -->
+    <section id="contacto" class="section section-light">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Cuéntanos qué necesitas y te ofreceremos la solución más adecuada.</p>
+
+            <ul class="contact-info">
+                <li><strong>Teléfono:</strong> +34 667 67 24 16</li>
+                <li><strong>Email:</strong> victor@torexpress.net</li>
+            </ul>
+
+            <form class="contact-form" action="https://formsubmit.co/victor@torexpress.net" method="POST">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="text" name="empresa" placeholder="Empresa">
+                <input type="tel" name="telefono" placeholder="Teléfono">
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
 
 </body>
 </html>
