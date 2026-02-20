@@ -80,6 +80,12 @@ p {
     text-align: center;
 }
 
+.hero-logo {
+    width: 120px;
+    margin-bottom: 25px;
+    opacity: 0.95;
+}
+
 .hero p {
     color: #e6e6e6;
 }
