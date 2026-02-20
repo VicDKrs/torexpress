@@ -223,3 +223,15 @@ p {
 .language-switcher button:active {
     transform: scale(0.95);
 }
+.language-switcher button {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.language-switcher button:hover {
+    background: #f0f0f0;
+}

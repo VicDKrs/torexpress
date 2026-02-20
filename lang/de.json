@@ -1,0 +1,64 @@
+{
+  "meta_title": "TOR EXPRESS - Transportlösungen",
+
+  "hero_title": "Schnelle, zuverlässige und maßgeschneiderte Transportlösungen.",
+  "hero_subtitle": "Nationaler und internationaler Service mit direkter Kommunikation und sofortiger Reaktion.",
+  "hero_cta_quote": "Angebot anfordern",
+  "hero_cta_provider": "Als Transportpartner bewerben",
+
+  "hero_nat_title": "Nationaler Transport",
+  "hero_nat_text": "Komplette Abdeckung in ganz Spanien mit flexiblen Abholungen und pünktlichen Lieferungen.",
+  "hero_int_title": "Internationaler Transport",
+  "hero_int_text": "Europaweite Transporte mit kontinuierlicher Sendungsverfolgung und transparenter Kommunikation.",
+  "hero_urg_title": "Eiltransporte 24/7",
+  "hero_urg_text": "Wenn jede Minute zählt, bieten wir sofortige und maßgeschneiderte Lösungen.",
+
+  "services_title": "Dienstleistungen",
+  "services_nat_title": "Nationaler Transport",
+  "services_nat_text": "Schnelle und zuverlässige Transporte in ganz Spanien mit persönlicher Betreuung.",
+  "services_int_title": "Internationaler Transport",
+  "services_int_text": "Straßentransporte in Europa für Komplett- und Teilladungen.",
+  "services_urg_title": "Eiltransporte 24/7",
+  "services_urg_text": "Sofortige Verfügbarkeit für kritische Sendungen mit kürzesten Lieferzeiten.",
+  "services_group_title": "Distribution und Sammelgut",
+  "services_group_text": "Effiziente Optionen für regelmäßige Sendungen oder geteilte Ladungen.",
+  "services_custom_title": "Maßgeschneiderter Service",
+  "services_custom_text": "Wir entwickeln Lösungen nach Art der Ware, Zielort und Dringlichkeit.",
+
+  "areas_title": "Einsatzgebiete",
+  "areas_cat_title": "Katalonien",
+  "areas_cat_text": "Tägliche Abholungen und flexible Dienstleistungen in der gesamten Region.",
+  "areas_iberia_title": "Iberische Halbinsel",
+  "areas_iberia_text": "Komplette Abdeckung in Spanien und Portugal mit zuverlässigen Partnern.",
+  "areas_eu_title": "Europa",
+  "areas_eu_text": "Internationaler Transport mit kurzen Laufzeiten und maximaler Zuverlässigkeit.",
+
+  "solutions_title": "Lösungen für Unternehmen",
+  "solutions_industry_title": "Industrie",
+  "solutions_industry_text": "Sicherer und pünktlicher Transport für sensible oder dringende Waren.",
+  "solutions_ecom_title": "E‑Commerce und Logistik",
+  "solutions_ecom_text": "Schnelle Lösungen, angepasst an Nachfragespitzen.",
+  "solutions_distributors_title": "Distributoren",
+  "solutions_distributors_text": "Regelmäßige Routen, geplante Lieferungen und optimierte Ladungsverwaltung.",
+  "solutions_smb_title": "Kleine Unternehmen",
+  "solutions_smb_text": "Flexibler Service ohne Mindestmengen und mit persönlicher Betreuung.",
+
+  "providers_title": "Werde Teil unseres Transportnetzwerks",
+  "providers_text": "Wir suchen engagierte Fachkräfte zur Erweiterung unseres Partnernetzwerks. Wir bieten klare Kommunikation, pünktliche Zahlungen und konstante Routen.",
+  "providers_cta": "Als Partner bewerben",
+
+  "about_title": "Über uns",
+  "about_text": "TOR EXPRESS bietet schnelle, effiziente und kundenorientierte Transportlösungen. Wir setzen auf direkten Kontakt, Pünktlichkeit und Vertrauen als Grundlage jeder Sendung. Unser Ziel ist es, Ihr zuverlässiger logistischer Partner zu werden.",
+
+  "contact_title": "Kontakt",
+  "contact_text": "Teilen Sie uns Ihre Anforderungen mit und wir bieten Ihnen die passende Lösung.",
+  "contact_email_label": "E‑Mail:",
+  "contact_email24_label": "E‑Mail 24h Notfälle:",
+
+  "contact_form_name": "Name",
+  "contact_form_company": "Unternehmen",
+  "contact_form_phone": "Telefon",
+  "contact_form_email": "E‑Mail",
+  "contact_form_message": "Nachricht",
+  "contact_form_send": "Senden"
+}
