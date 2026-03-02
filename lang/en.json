@@ -52,4 +52,26 @@
   "contact_form_email": "Email",
   "contact_form_message": "Message",
   "contact_form_send": "Send"
+  "footer_title": "TOR EXPRESS",
+  "footer_desc1": "Express transport · Last mile · National and international",
+  "footer_desc2": "Operational warehouse in Barcelona",
+  "footer_desc3": "Presence in Tarragona",
+
+  "footer_contact": "24h Contact",
+
+  "footer_services": "Services",
+  "footer_service1": "24h urgent deliveries",
+  "footer_service2": "Immediate pickups",
+  "footer_service3": "Imports and exports",
+  "footer_service4": "Last mile",
+  "footer_service5": "National and international transport",
+  "footer_service6": "Warehouse and consolidation",
+
+  "footer_links": "Links",
+  "footer_link_home": "Home",
+  "footer_link_services": "Services",
+  "footer_link_areas": "Operation areas",
+  "footer_link_contact": "Contact",
+
+  "footer_rights": "© TOR EXPRESS · All rights reserved"
 }

@@ -53,11 +53,25 @@
   "contact_form_message": "Missatge",
   "contact_form_send": "Enviar"
   "footer_title": "TOR EXPRESS",
-  "footer_desc1": "Transport urgent - Última milla - Nacional i internacional",
+  "footer_desc1": "Transport urgent · Última milla · Nacional i internacional",
   "footer_desc2": "Magatzem operatiu a Barcelona",
   "footer_desc3": "Presència a Tarragona",
+
   "footer_contact": "Contacte 24h",
+
   "footer_services": "Serveis",
+  "footer_service1": "Urgències 24h",
+  "footer_service2": "Recollides immediates",
+  "footer_service3": "Importacions i exportacions",
+  "footer_service4": "Última milla",
+  "footer_service5": "Transport nacional i internacional",
+  "footer_service6": "Magatzem i consolidació",
+
   "footer_links": "Enllaços",
+  "footer_link_home": "Inici",
+  "footer_link_services": "Serveis",
+  "footer_link_areas": "Àrees d’operació",
+  "footer_link_contact": "Contacte",
+
   "footer_rights": "© TOR EXPRESS · Tots els drets reservats"
 }
