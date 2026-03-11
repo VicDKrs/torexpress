@@ -104,5 +104,12 @@
   "footer_office_title": "Büro:",
   "footer_warehouse_title": "Lager:",
   "footer_office_address": "Carrer Bages, 19. 43008 Tarragona",
-  "footer_warehouse_address": "Carrer Masia de Can Coll, 5. 08620 Sant Vicenç dels Horts"
+  "footer_warehouse_address": "Carrer Masia de Can Coll, 5. 08620 Sant Vicenç dels Horts",
+
+  "warehouse_title": "Lager Barcelona",
+  "warehouse_text": "Wir verfügen über ein operatives Lager in Barcelona mit Lager-, Konsolidierungs- und Warenmanagementservice. Überwachte Anlagen, flexibler Zugang und 24h-Verfügbarkeit für dringende Operationen.",
+  "warehouse_l1": "Lagerung und Konsolidierung",
+  "warehouse_l2": "24h Videoüberwachung",
+  "warehouse_l3": "Flexibler Zugang und dringende Operationen",
+  "warehouse_l4": "Strategische Lage im Raum Barcelona"
 }

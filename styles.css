@@ -365,3 +365,15 @@ p {
     opacity: 1;
     transform: scale(1.1);
 }
+/* Fons logístic per a la secció Magatzem */
+.warehouse-list {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.warehouse-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
