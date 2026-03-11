@@ -18,7 +18,7 @@
   "services_title": "Servicios",
 
   "services_nat_title": "Transporte Nacional",
-  "services_nat_text": "Gestionamos envíos en todo el territorio con rapidez, puntualidad y un trato cercano.",
+  "services_nat_text": "Gestionamos envíos en todo el territorio con rapidez, puntualidad y trato cercano.",
 
   "services_int_title": "Transporte Internacional",
   "services_int_text": "Soluciones de transporte por carretera en Europa para cargas completas y parciales.",
@@ -65,7 +65,7 @@
   "about_text": "TOR EXPRESS es una empresa orientada a ofrecer soluciones de transporte rápidas, eficientes y adaptadas a cada cliente. Creemos en el trato directo, la puntualidad y la confianza como base de cada envío. Nuestro objetivo es convertirnos en tu socio logístico de referencia.",
 
   "contact_title": "Contacto",
-  "contact_text": "Cuéntanos qué necesitas y te ofreceremos la solución más adecuada.",
+  "contact_text": "Explícanos qué necesitas y te proporcionaremos la solución más adecuada.",
   "contact_email_label": "Email:",
   "contact_email24_label": "Email 24h urgencias:",
 
@@ -98,12 +98,11 @@
   "footer_l4": "Almacén Barcelona",
   "footer_l5": "Contacto",
 
-  "footer_rights": "© 2024 TOR EXPRESS. Todos los derechos reservados."
+  "footer_rights": "© 2024 TOR EXPRESS. Todos los derechos reservados.",
+
   "footer_locations": "Ubicaciones",
   "footer_office_title": "Oficina:",
   "footer_warehouse_title": "Almacén:",
-  "footer_office_address": "Carrer Bages, 19. 43008 Tarragona",
-  "footer_warehouse_address": "Carrer Masia de Can Coll, 5. 08620 Sant Vicenç dels Horts"
   "footer_office_address": "Carrer Bages, 19. 43008 Tarragona",
   "footer_warehouse_address": "Carrer Masia de Can Coll, 5. 08620 Sant Vicenç dels Horts"
 }

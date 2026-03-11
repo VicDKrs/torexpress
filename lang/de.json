@@ -4,7 +4,7 @@
   "hero_title": "Schnelle, zuverlässige und maßgeschneiderte Transportlösungen für Ihr Unternehmen.",
   "hero_subtitle": "Nationaler und internationaler Service mit sofortiger Reaktion und direkter Kommunikation.",
   "hero_cta_quote": "Angebot anfordern",
-  "hero_cta_provider": "Als Transportpartner beitreten",
+  "hero_cta_provider": "Partner werden",
 
   "hero_nat_title": "Nationaler Transport",
   "hero_nat_text": "Vollständige Abdeckung im ganzen Land mit flexiblen Abholungen und pünktlichen Lieferungen.",
@@ -18,13 +18,13 @@
   "services_title": "Dienstleistungen",
 
   "services_nat_title": "Nationaler Transport",
-  "services_nat_text": "Wir organisieren Sendungen im ganzen Land mit Schnelligkeit, Pünktlichkeit und persönlichem Service.",
+  "services_nat_text": "Wir organisieren Sendungen im ganzen Land mit Schnelligkeit, Pünktlichkeit und persönlicher Betreuung.",
 
   "services_int_title": "Internationaler Transport",
-  "services_int_text": "Transportlösungen in ganz Europa für Komplett- und Teilladungen.",
+  "services_int_text": "Transportlösungen in Europa für Komplett- und Teilladungen.",
 
   "services_urg_title": "Eiltransporte 24/7",
-  "services_urg_text": "Sofortige Verfügbarkeit für dringende Sendungen mit schnellstmöglicher Lieferung.",
+  "services_urg_text": "Sofortige Verfügbarkeit für kritische Sendungen mit kürzester Lieferzeit.",
 
   "services_group_title": "Distribution & Sammelgut",
   "services_group_text": "Effiziente Optionen für regelmäßige Sendungen oder geteilte Ladungen.",
@@ -41,14 +41,14 @@
   "areas_iberia_text": "Vollständige Abdeckung in Spanien und Portugal mit zuverlässigen Partnern.",
 
   "areas_eu_title": "Europa",
-  "areas_eu_text": "Internationaler Transport mit optimierten Laufzeiten und maximaler Zuverlässigkeit.",
+  "areas_eu_text": "Internationaler Transport mit optimierten Transitzeiten und maximaler Zuverlässigkeit.",
 
   "solutions_title": "Lösungen für Unternehmen",
 
   "solutions_industry_title": "Industrie",
   "solutions_industry_text": "Sicherer und pünktlicher Transport für empfindliche oder dringende Waren.",
 
-  "solutions_ecom_title": "E‑Commerce & Logistik",
+  "solutions_ecom_title": "E-Commerce & Logistik",
   "solutions_ecom_text": "Schnelle Lösungen, angepasst an Nachfragespitzen.",
 
   "solutions_distributors_title": "Distributoren",
@@ -58,16 +58,16 @@
   "solutions_smb_text": "Flexibler Service, keine Mindestmengen und persönliche Betreuung.",
 
   "providers_title": "Werden Sie Teil unseres Transportnetzwerks",
-  "providers_text": "Wir suchen engagierte Fachkräfte zur Erweiterung unseres Netzwerks. Wir bieten klare Kommunikation, pünktliche Zahlungen und konstante Routen.",
-  "providers_cta": "Als Partner beitreten",
+  "providers_text": "Wir suchen engagierte Fachkräfte zur Erweiterung unseres Partnernetzwerks. Wir bieten klare Kommunikation, pünktliche Zahlungen und konstante Routen.",
+  "providers_cta": "Partner werden",
 
   "about_title": "Über uns",
   "about_text": "TOR EXPRESS bietet schnelle, effiziente und maßgeschneiderte Transportlösungen. Wir glauben an direkten Kontakt, Pünktlichkeit und Vertrauen als Grundlage jeder Sendung. Unser Ziel ist es, Ihr zuverlässiger Logistikpartner zu werden.",
 
   "contact_title": "Kontakt",
-  "contact_text": "Teilen Sie uns Ihre Anforderungen mit und wir finden die passende Lösung.",
+  "contact_text": "Teilen Sie uns mit, was Sie benötigen, und wir bieten Ihnen die passende Lösung.",
   "contact_email_label": "Email:",
-  "contact_email24_label": "24h Notfall‑Email:",
+  "contact_email24_label": "24h Notfall-Email:",
 
   "contact_form_name": "Name",
   "contact_form_company": "Unternehmen",
@@ -78,13 +78,13 @@
 
   "footer_title": "TOR EXPRESS",
   "footer_desc1": "Eiltransporte · Letzte Meile · National und international",
-  "footer_desc2": "Betriebsbereites Lager in Barcelona",
+  "footer_desc2": "Betriebslager in Barcelona",
   "footer_desc3": "Präsenz in Tarragona",
 
   "footer_contact": "24h Kontakt",
 
   "footer_services": "Dienstleistungen",
-  "footer_s1": "24h Notfälle",
+  "footer_s1": "Eiltransporte 24h",
   "footer_s2": "Sofortige Abholungen",
   "footer_s3": "Importe und Exporte",
   "footer_s4": "Letzte Meile",
@@ -98,15 +98,11 @@
   "footer_l4": "Lager Barcelona",
   "footer_l5": "Kontakt",
 
-  "footer_rights": "© 2024 TOR EXPRESS. Alle Rechte vorbehalten."
+  "footer_rights": "© 2024 TOR EXPRESS. Alle Rechte vorbehalten.",
+
   "footer_locations": "Standorte",
-"footer_office_title": "Büro:",
-"footer_warehouse_title": "Lager:",
-"footer_office_address": "Carrer Bages, 19. 43008 Tarragona",
-"footer_warehouse_address": "Carrer Masia de Can Coll, 5. 08620 Sant Vicenç dels Horts"
-"footer_locations": "Standorte",
-"footer_office_title": "Büro:",
-"footer_warehouse_title": "Lager:",
-"footer_office_address": "Carrer Bages, 19. 43008 Tarragona",
-"footer_warehouse_address": "Carrer Masia de Can Coll, 5. 08620 Sant Vicenç dels Horts"
+  "footer_office_title": "Büro:",
+  "footer_warehouse_title": "Lager:",
+  "footer_office_address": "Carrer Bages, 19. 43008 Tarragona",
+  "footer_warehouse_address": "Carrer Masia de Can Coll, 5. 08620 Sant Vicenç dels Horts"
 }
