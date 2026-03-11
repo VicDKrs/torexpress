@@ -235,3 +235,105 @@ p {
 .language-switcher button:hover {
     background: #f0f0f0;
 }
+/* ===========================
+   FOOTER PREMIUM
+=========================== */
+
+.footer {
+    background: #0d0d0d;
+    color: #e6e6e6;
+    padding: 70px 0 35px 0;
+    border-top: 4px solid #005bbb; /* línia corporativa */
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 0 25px;
+}
+
+.footer-block {
+    flex: 1;
+    min-width: 260px;
+}
+
+.footer-block h3 {
+    color: #fff;
+    margin-bottom: 18px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* Textos */
+.footer-block p,
+.footer-block li,
+.footer-block a {
+    color: #cfcfcf;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* Llistes */
+.footer-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-block li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Icones minimalistes */
+.footer-block li::before {
+    content: "•";
+    color: #005bbb;
+    font-size: 18px;
+    line-height: 0;
+}
+
+/* Enllaços */
+.footer-block a {
+    text-decoration: none;
+    transition: 0.25s ease;
+}
+
+.footer-block a:hover {
+    color: #fff;
+    padding-left: 4px;
+}
+
+/* Footer bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 50px;
+    color: #777;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+
+/* ===========================
+   RESPONSIVE FOOTER
+=========================== */
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-block {
+        min-width: 100%;
+    }
+
+    .footer-block h3 {
+        font-size: 18px;
+    }
+}
