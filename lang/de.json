@@ -1,86 +1,102 @@
 {
-  "meta_title": "TOR EXPRESS - Transportlösungen",
+  "meta_title": "Schnelle, zuverlässige und maßgeschneiderte Transportlösungen für Ihr Unternehmen",
 
-  "hero_title": "Schnelle, zuverlässige und maßgeschneiderte Transportlösungen.",
-  "hero_subtitle": "Nationaler und internationaler Service mit direkter Kommunikation und sofortiger Reaktion.",
+  "hero_title": "Schnelle, zuverlässige und maßgeschneiderte Transportlösungen für Ihr Unternehmen.",
+  "hero_subtitle": "Nationaler und internationaler Service mit sofortiger Reaktion und direkter Kommunikation.",
   "hero_cta_quote": "Angebot anfordern",
-  "hero_cta_provider": "Als Transportpartner bewerben",
+  "hero_cta_provider": "Als Transportpartner beitreten",
 
   "hero_nat_title": "Nationaler Transport",
-  "hero_nat_text": "Komplette Abdeckung in ganz Spanien mit flexiblen Abholungen und pünktlichen Lieferungen.",
+  "hero_nat_text": "Vollständige Abdeckung im ganzen Land mit flexiblen Abholungen und pünktlichen Lieferungen.",
+
   "hero_int_title": "Internationaler Transport",
   "hero_int_text": "Europaweite Transporte mit kontinuierlicher Sendungsverfolgung und transparenter Kommunikation.",
+
   "hero_urg_title": "Eiltransporte 24/7",
   "hero_urg_text": "Wenn jede Minute zählt, bieten wir sofortige und maßgeschneiderte Lösungen.",
 
   "services_title": "Dienstleistungen",
+
   "services_nat_title": "Nationaler Transport",
-  "services_nat_text": "Schnelle und zuverlässige Transporte in ganz Spanien mit persönlicher Betreuung.",
+  "services_nat_text": "Wir organisieren Sendungen im ganzen Land mit Schnelligkeit, Pünktlichkeit und persönlichem Service.",
+
   "services_int_title": "Internationaler Transport",
-  "services_int_text": "Straßentransporte in Europa für Komplett- und Teilladungen.",
+  "services_int_text": "Transportlösungen in ganz Europa für Komplett- und Teilladungen.",
+
   "services_urg_title": "Eiltransporte 24/7",
-  "services_urg_text": "Sofortige Verfügbarkeit für kritische Sendungen mit kürzesten Lieferzeiten.",
-  "services_group_title": "Distribution und Sammelgut",
+  "services_urg_text": "Sofortige Verfügbarkeit für dringende Sendungen mit schnellstmöglicher Lieferung.",
+
+  "services_group_title": "Distribution & Sammelgut",
   "services_group_text": "Effiziente Optionen für regelmäßige Sendungen oder geteilte Ladungen.",
+
   "services_custom_title": "Maßgeschneiderter Service",
-  "services_custom_text": "Wir entwickeln Lösungen nach Art der Ware, Zielort und Dringlichkeit.",
+  "services_custom_text": "Wir entwickeln individuelle Lösungen je nach Frachtart, Zielort und Dringlichkeit.",
 
   "areas_title": "Einsatzgebiete",
+
   "areas_cat_title": "Katalonien",
-  "areas_cat_text": "Tägliche Abholungen und flexible Dienstleistungen in der gesamten Region.",
+  "areas_cat_text": "Tägliche Abholungen und flexibler Service in der gesamten Region.",
+
   "areas_iberia_title": "Iberische Halbinsel",
-  "areas_iberia_text": "Komplette Abdeckung in Spanien und Portugal mit zuverlässigen Partnern.",
+  "areas_iberia_text": "Vollständige Abdeckung in Spanien und Portugal mit zuverlässigen Partnern.",
+
   "areas_eu_title": "Europa",
-  "areas_eu_text": "Internationaler Transport mit kurzen Laufzeiten und maximaler Zuverlässigkeit.",
+  "areas_eu_text": "Internationaler Transport mit optimierten Laufzeiten und maximaler Zuverlässigkeit.",
 
   "solutions_title": "Lösungen für Unternehmen",
-  "solutions_industry_title": "Industrie",
-  "solutions_industry_text": "Sicherer und pünktlicher Transport für sensible oder dringende Waren.",
-  "solutions_ecom_title": "E‑Commerce und Logistik",
-  "solutions_ecom_text": "Schnelle Lösungen, angepasst an Nachfragespitzen.",
-  "solutions_distributors_title": "Distributoren",
-  "solutions_distributors_text": "Regelmäßige Routen, geplante Lieferungen und optimierte Ladungsverwaltung.",
-  "solutions_smb_title": "Kleine Unternehmen",
-  "solutions_smb_text": "Flexibler Service ohne Mindestmengen und mit persönlicher Betreuung.",
 
-  "providers_title": "Werde Teil unseres Transportnetzwerks",
-  "providers_text": "Wir suchen engagierte Fachkräfte zur Erweiterung unseres Partnernetzwerks. Wir bieten klare Kommunikation, pünktliche Zahlungen und konstante Routen.",
-  "providers_cta": "Als Partner bewerben",
+  "solutions_industry_title": "Industrie",
+  "solutions_industry_text": "Sicherer und pünktlicher Transport für empfindliche oder dringende Waren.",
+
+  "solutions_ecom_title": "E‑Commerce & Logistik",
+  "solutions_ecom_text": "Schnelle Lösungen, angepasst an Nachfragespitzen.",
+
+  "solutions_distributors_title": "Distributoren",
+  "solutions_distributors_text": "Regelmäßige Routen, geplante Lieferungen und optimiertes Lademanagement.",
+
+  "solutions_smb_title": "Kleinunternehmen",
+  "solutions_smb_text": "Flexibler Service, keine Mindestmengen und persönliche Betreuung.",
+
+  "providers_title": "Werden Sie Teil unseres Transportnetzwerks",
+  "providers_text": "Wir suchen engagierte Fachkräfte zur Erweiterung unseres Netzwerks. Wir bieten klare Kommunikation, pünktliche Zahlungen und konstante Routen.",
+  "providers_cta": "Als Partner beitreten",
 
   "about_title": "Über uns",
-  "about_text": "TOR EXPRESS bietet schnelle, effiziente und kundenorientierte Transportlösungen. Wir setzen auf direkten Kontakt, Pünktlichkeit und Vertrauen als Grundlage jeder Sendung. Unser Ziel ist es, Ihr zuverlässiger logistischer Partner zu werden.",
+  "about_text": "TOR EXPRESS bietet schnelle, effiziente und maßgeschneiderte Transportlösungen. Wir glauben an direkten Kontakt, Pünktlichkeit und Vertrauen als Grundlage jeder Sendung. Unser Ziel ist es, Ihr zuverlässiger Logistikpartner zu werden.",
 
   "contact_title": "Kontakt",
-  "contact_text": "Teilen Sie uns Ihre Anforderungen mit und wir bieten Ihnen die passende Lösung.",
-  "contact_email_label": "E‑Mail:",
-  "contact_email24_label": "E‑Mail 24h Notfälle:",
+  "contact_text": "Teilen Sie uns Ihre Anforderungen mit und wir finden die passende Lösung.",
+  "contact_email_label": "Email:",
+  "contact_email24_label": "24h Notfall‑Email:",
 
   "contact_form_name": "Name",
   "contact_form_company": "Unternehmen",
   "contact_form_phone": "Telefon",
-  "contact_form_email": "E‑Mail",
+  "contact_form_email": "Email",
   "contact_form_message": "Nachricht",
-  "contact_form_send": "Senden"
+  "contact_form_send": "Senden",
+
   "footer_title": "TOR EXPRESS",
-  "footer_desc1": "Express-Transporte · Last Mile · National und international",
-  "footer_desc2": "Betriebslager in Barcelona",
+  "footer_desc1": "Eiltransporte · Letzte Meile · National und international",
+  "footer_desc2": "Betriebsbereites Lager in Barcelona",
   "footer_desc3": "Präsenz in Tarragona",
 
   "footer_contact": "24h Kontakt",
 
   "footer_services": "Dienstleistungen",
-  "footer_service1": "24h-Expresslieferungen",
-  "footer_service2": "Sofortige Abholungen",
-  "footer_service3": "Importe und Exporte",
-  "footer_service4": "Last Mile",
-  "footer_service5": "Nationaler und internationaler Transport",
-  "footer_service6": "Lager und Konsolidierung",
+  "footer_s1": "24h Notfälle",
+  "footer_s2": "Sofortige Abholungen",
+  "footer_s3": "Importe und Exporte",
+  "footer_s4": "Letzte Meile",
+  "footer_s5": "Nationaler und internationaler Transport",
+  "footer_s6": "Lager und Konsolidierung",
 
   "footer_links": "Links",
-  "footer_link_home": "Startseite",
-  "footer_link_services": "Dienstleistungen",
-  "footer_link_areas": "Einsatzgebiete",
-  "footer_link_contact": "Kontakt",
+  "footer_l1": "Startseite",
+  "footer_l2": "Dienstleistungen",
+  "footer_l3": "Einsatzgebiete",
+  "footer_l4": "Lager Barcelona",
+  "footer_l5": "Kontakt",
 
-  "footer_rights": "© TOR EXPRESS · Alle Rechte vorbehalten"
+  "footer_rights": "© 2024 TOR EXPRESS. Alle Rechte vorbehalten."
 }
