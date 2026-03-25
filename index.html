@@ -256,6 +256,22 @@ document.addEventListener("DOMContentLoaded", () => {
             <input type="email" name="email" placeholder="Email" required data-key-placeholder="contact_form_email">
             <textarea name="missatge" placeholder="Missatge" required data-key-placeholder="contact_form_message"></textarea>
 
+            <!-- RGPD: Acceptació obligatòria -->
+            <label class="checkbox privacy-check">
+                <input type="checkbox" required>
+                <span data-key="privacy_accept">Accepto la política de privacitat</span>
+            </label>
+
+            <!-- Enllaç a la política de privacitat -->
+            <p class="privacy-link">
+                <a href="privacitat.html" target="_blank" data-key="privacy_link">Veure política de privacitat</a>
+            </p>
+
+            <!-- Text informatiu RGPD -->
+            <p class="privacy-note" data-key="privacy_note">
+                Les teves dades només s’utilitzaran per respondre la teva consulta. No es guardaran ni es cediran a tercers.
+            </p>
+
             <!-- Anti-spam de FormSubmit -->
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_template" value="table">

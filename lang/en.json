@@ -99,5 +99,8 @@
   "contact_map_address": "Carrer Bages 19, 43008 Tarragona",
   "cookies_text": "This website uses cookies to improve your experience. You can accept or reject them.",
 "cookies_accept": "Accept",
-"cookies_reject": "Reject"
+"cookies_reject": "Reject",
+"privacy_accept": "I accept the privacy policy",
+"privacy_link": "View privacy policy",
+"privacy_note": "Your data will only be used to respond to your inquiry. It will not be stored or shared with third parties."
 }

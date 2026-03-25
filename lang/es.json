@@ -99,5 +99,8 @@
   "contact_map_address": "Carrer Bages 19, 43008 Tarragona",
   "cookies_text": "Este sitio web utiliza cookies para mejorar la experiencia. Puedes aceptarlas o rechazarlas.",
 "cookies_accept": "Aceptar",
-"cookies_reject": "Rechazar"
+"cookies_reject": "Rechazar",
+"privacy_accept": "Acepto la política de privacidad",
+"privacy_link": "Ver política de privacidad",
+"privacy_note": "Tus datos solo se utilizarán para responder a tu consulta. No se almacenarán ni se cederán a terceros."
 }
