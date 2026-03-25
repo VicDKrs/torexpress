@@ -163,7 +163,6 @@ if (localStorage.getItem("cookies")) {
         </div>
     </div>
 </section>
-
 <!-- ================= PROVEÏDORS ================= -->
 <section id="proveidors" class="section section-light">
     <div class="container">
@@ -355,7 +354,52 @@ if (localStorage.getItem("cookies")) {
             </ul>
         </div>
     </div>
+        </div> <!-- fi de .footer-container -->
     <div class="footer-bottom">
         <p>© TOR EXPRESS – Tots els drets reservats</p>
     </div>
 </footer>
+
+<!-- ================= TRADUCCIONS ================= -->
+<script>
+// Carrega l'idioma guardat o català per defecte
+let currentLang = localStorage.getItem("lang") || "ca";
+loadLanguage(currentLang);
+
+function loadLanguage(lang) {
+    fetch(`lang/${lang}.json`)
+        .then(res => res.json())
+        .then(data => {
+
+            // Textos normals
+            document.querySelectorAll("[data-key]").forEach(el => {
+                const key = el.getAttribute("data-key");
+                if (data[key]) el.textContent = data[key];
+            });
+
+            // Placeholders
+            document.querySelectorAll("[data-key-placeholder]").forEach(el => {
+                const key = el.getAttribute("data-key-placeholder");
+                if (data[key]) el.placeholder = data[key];
+            });
+
+            // Enllaços (href)
+            document.querySelectorAll("[data-key-href]").forEach(el => {
+                const key = el.getAttribute("data-key-href");
+                if (data[key]) el.href = data[key];
+            });
+
+            localStorage.setItem("lang", lang);
+        });
+}
+
+// Botons d'idioma
+document.querySelectorAll(".lang-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+        loadLanguage(btn.dataset.lang);
+    });
+});
+</script>
+
+</body>
+</html>
