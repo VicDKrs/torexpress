@@ -460,3 +460,48 @@ p {
         justify-content: center;
     }
 }
+/* ===== PÀGINES LEGALS CORPORATIVES ===== */
+
+.legal-header {
+    background: #111;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.legal-logo {
+    height: 60px;
+}
+
+.legal-content {
+    padding: 60px 0;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+.legal-content h1 {
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+    color: #111;
+}
+
+.legal-content h2 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    color: #222;
+}
+
+.legal-content p,
+.legal-content li {
+    font-size: 1.05rem;
+    margin-bottom: 15px;
+}
+
+.legal-footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 60px;
+}
