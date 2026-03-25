@@ -10,20 +10,20 @@
 
 <body>
 
- <!-- ================= COOKIES ================= -->
-<div id="cookie-banner" 
-     style="position: fixed; bottom: 0; left: 0; right: 0; background: #222; color: #fff; padding: 15px; display: flex; justify-content: space-between; align-items: center; z-index: 9999;">
+<!-- ================= COOKIES ================= -->
+<div id="cookie-banner" class="cookie-banner">
+    <div class="cookie-text">
+        <span data-key="cookies_text">
+            Aquest lloc web utilitza cookies per millorar l’experiència. Pots acceptar-les o rebutjar-les.
+        </span>
+    </div>
 
-    <span data-key="cookies_text">
-        Aquest lloc web utilitza cookies per millorar l’experiència. Pots acceptar-les o rebutjar-les.
-    </span>
-
-    <div>
-        <button onclick="acceptCookies()" style="margin-right: 10px;" data-key="cookies_accept">
+    <div class="cookie-buttons">
+        <button onclick="acceptCookies()" class="cookie-btn accept" data-key="cookies_accept">
             Acceptar
         </button>
 
-        <button onclick="rejectCookies()" data-key="cookies_reject">
+        <button onclick="rejectCookies()" class="cookie-btn reject" data-key="cookies_reject">
             Rebutjar
         </button>
     </div>
@@ -40,7 +40,6 @@ function rejectCookies() {
     document.getElementById("cookie-banner").style.display = "none";
 }
 
-// Amaga el banner si ja s'ha pres una decisió
 if (localStorage.getItem("cookies")) {
     document.getElementById("cookie-banner").style.display = "none";
 }

@@ -377,3 +377,86 @@ p {
     font-size: 16px;
     color: #555;
 }
+/* ===== COOKIE BANNER CORPORATIU ===== */
+.cookie-banner {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #111;
+    color: #fff;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    z-index: 9999;
+    max-width: 900px;
+    width: calc(100% - 40px);
+    animation: fadeInUp 0.4s ease-out;
+}
+
+.cookie-text {
+    flex: 1;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.cookie-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.cookie-btn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.cookie-btn.accept {
+    background: #00aaff;
+    color: #fff;
+}
+
+.cookie-btn.accept:hover {
+    background: #0088cc;
+}
+
+.cookie-btn.reject {
+    background: #444;
+    color: #fff;
+}
+
+.cookie-btn.reject:hover {
+    background: #666;
+}
+
+/* Animació d'entrada */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate(-50%, 20px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .cookie-banner {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .cookie-buttons {
+        width: 100%;
+        justify-content: center;
+    }
+}
