@@ -8,109 +8,92 @@
 
   "hero_nat_title": "Nationaler Transport",
   "hero_nat_text": "Vollständige Abdeckung im ganzen Land mit flexiblen Abholungen und pünktlichen Lieferungen.",
-
   "hero_int_title": "Internationaler Transport",
   "hero_int_text": "Europaweite Transporte mit kontinuierlicher Sendungsverfolgung und transparenter Kommunikation.",
-
   "hero_urg_title": "Eiltransporte 24/7",
   "hero_urg_text": "Wenn jede Minute zählt, bieten wir sofortige und maßgeschneiderte Lösungen.",
 
   "services_title": "Dienstleistungen",
-
   "services_nat_title": "Nationaler Transport",
-  "services_nat_text": "Wir organisieren Sendungen im ganzen Land mit Schnelligkeit, Pünktlichkeit und persönlicher Betreuung.",
-
+  "services_nat_text": "Wir organisieren Sendungen im ganzen Land mit Schnelligkeit, Pünktlichkeit und persönlichem Service.",
   "services_int_title": "Internationaler Transport",
   "services_int_text": "Transportlösungen in Europa für Komplett- und Teilladungen.",
-
   "services_urg_title": "Eiltransporte 24/7",
-  "services_urg_text": "Sofortige Verfügbarkeit für kritische Sendungen mit kürzester Lieferzeit.",
-
+  "services_urg_text": "Sofortige Verfügbarkeit für kritische Sendungen mit kürzesten Lieferzeiten.",
   "services_group_title": "Distribution & Sammelgut",
   "services_group_text": "Effiziente Optionen für regelmäßige Sendungen oder geteilte Ladungen.",
-
   "services_custom_title": "Maßgeschneiderter Service",
-  "services_custom_text": "Wir entwickeln individuelle Lösungen je nach Frachtart, Zielort und Dringlichkeit.",
+  "services_custom_text": "Wir entwickeln individuelle Lösungen basierend auf Frachtart, Zielort und Dringlichkeit.",
 
   "areas_title": "Einsatzgebiete",
-
   "areas_cat_title": "Katalonien",
   "areas_cat_text": "Tägliche Abholungen und flexibler Service in der gesamten Region.",
-
   "areas_iberia_title": "Iberische Halbinsel",
   "areas_iberia_text": "Vollständige Abdeckung in Spanien und Portugal mit zuverlässigen Partnern.",
-
   "areas_eu_title": "Europa",
-  "areas_eu_text": "Internationaler Transport mit optimierten Transitzeiten und maximaler Zuverlässigkeit.",
+  "areas_eu_text": "Internationaler Transport mit optimierten Transitzeiten und höchster Zuverlässigkeit.",
 
   "solutions_title": "Lösungen für Unternehmen",
-
   "solutions_industry_title": "Industrie",
   "solutions_industry_text": "Sicherer und pünktlicher Transport für empfindliche oder dringende Waren.",
-
   "solutions_ecom_title": "E-Commerce & Logistik",
   "solutions_ecom_text": "Schnelle Lösungen, angepasst an Nachfragespitzen.",
-
   "solutions_distributors_title": "Distributoren",
   "solutions_distributors_text": "Regelmäßige Routen, geplante Lieferungen und optimiertes Lademanagement.",
-
   "solutions_smb_title": "Kleinunternehmen",
   "solutions_smb_text": "Flexibler Service, keine Mindestmengen und persönliche Betreuung.",
 
-  "providers_title": "Werden Sie Teil unseres Transportnetzwerks",
+  "providers_title": "Werde Teil unseres Transportpartner-Netzwerks",
   "providers_text": "Wir suchen engagierte Fachkräfte zur Erweiterung unseres Partnernetzwerks. Wir bieten klare Kommunikation, pünktliche Zahlungen und konstante Routen.",
   "providers_cta": "Partner werden",
 
   "about_title": "Über uns",
-  "about_text": "TOR EXPRESS bietet schnelle, effiziente und maßgeschneiderte Transportlösungen. Wir glauben an direkten Kontakt, Pünktlichkeit und Vertrauen als Grundlage jeder Sendung. Unser Ziel ist es, Ihr zuverlässiger Logistikpartner zu werden.",
+  "about_text": "TOR EXPRESS ist eine Marke, die darauf ausgerichtet ist, schnelle, effiziente und maßgeschneiderte Transportlösungen anzubieten. Wir glauben an direkten Kontakt, Pünktlichkeit und Vertrauen als Grundlage jeder Sendung. Unser Ziel ist es, Ihr zuverlässiger Logistikpartner zu werden.",
+  "about_legal": "TOR EXPRESS fungiert als Plattform für Logistikmanagement und -koordination. Die Transportdienstleistungen werden unter der administrativen Genehmigung von FRANCISCO JAVIER FERNÁNDEZ CASTILLA, Steuer-ID 37374832Q, durchgeführt. Víctor arbeitet als Handelsvertreter und operativer Koordinator.",
+
+  "warehouse_title": "Lager Barcelona",
+  "warehouse_text": "Wir verfügen über ein operatives Lager in Barcelona mit Lagerung, Konsolidierung und Warenmanagement. Überwachte Anlagen, flexibler Zugang und 24h-Öffnung für dringende Operationen.",
+  "warehouse_l1": "Lagerung und Konsolidierung",
+  "warehouse_l2": "24h Videoüberwachung",
+  "warehouse_l3": "Flexibler Zugang und dringende Operationen",
+  "warehouse_l4": "Strategische Lage im Großraum Barcelona",
 
   "contact_title": "Kontakt",
   "contact_text": "Teilen Sie uns mit, was Sie benötigen, und wir bieten Ihnen die passende Lösung.",
-  "contact_email_label": "Email:",
-  "contact_email24_label": "24h Notfall-Email:",
-
   "contact_form_name": "Name",
   "contact_form_company": "Unternehmen",
   "contact_form_phone": "Telefon",
   "contact_form_email": "Email",
   "contact_form_message": "Nachricht",
   "contact_form_send": "Senden",
+  "contact_map_title": "Standort des Büros",
 
   "footer_title": "TOR EXPRESS",
-  "footer_desc1": "Eiltransporte · Letzte Meile · National und international",
-  "footer_desc2": "Betriebslager in Barcelona",
+  "footer_desc1": "Eiltransport · Letzte Meile · National und international",
+  "footer_desc2": "Operatives Lager in Barcelona",
   "footer_desc3": "Präsenz in Tarragona",
-
   "footer_contact": "24h Kontakt",
-
+  "footer_locations": "Standorte",
+  "footer_office_title": "Büro:",
+  "footer_office_address": "Carrer Bages, 19. 43008 Tarragona",
+  "footer_warehouse_title": "Lager:",
+  "footer_warehouse_address": "Carrer Masia de Can Coll, 5. 08620 Sant Vicenç dels Horts",
   "footer_services": "Dienstleistungen",
-  "footer_s1": "Eiltransporte 24h",
+  "footer_s1": "24h Notfälle",
   "footer_s2": "Sofortige Abholungen",
   "footer_s3": "Importe und Exporte",
   "footer_s4": "Letzte Meile",
   "footer_s5": "Nationaler und internationaler Transport",
   "footer_s6": "Lager und Konsolidierung",
-
   "footer_links": "Links",
   "footer_l1": "Startseite",
   "footer_l2": "Dienstleistungen",
   "footer_l3": "Einsatzgebiete",
   "footer_l4": "Lager Barcelona",
   "footer_l5": "Kontakt",
-
+  "footer_legal_notice": "Rechtlicher Hinweis",
+  "footer_privacy": "Datenschutzrichtlinie",
+  "footer_cookies": "Cookie-Richtlinie",
   "footer_rights": "© 2024 TOR EXPRESS. Alle Rechte vorbehalten.",
-
-  "footer_locations": "Standorte",
-  "footer_office_title": "Büro:",
-  "footer_warehouse_title": "Lager:",
-  "footer_office_address": "Carrer Bages, 19. 43008 Tarragona",
-  "footer_warehouse_address": "Carrer Masia de Can Coll, 5. 08620 Sant Vicenç dels Horts",
-
-  "warehouse_title": "Lager Barcelona",
-  "warehouse_text": "Wir verfügen über ein operatives Lager in Barcelona mit Lager-, Konsolidierungs- und Warenmanagementservice. Überwachte Anlagen, flexibler Zugang und 24h-Verfügbarkeit für dringende Operationen.",
-  "warehouse_l1": "Lagerung und Konsolidierung",
-  "warehouse_l2": "24h Videoüberwachung",
-  "warehouse_l3": "Flexibler Zugang und dringende Operationen",
-  "warehouse_l4": "Strategische Lage im Raum Barcelona",
-  "contact_map_title": "Standort des Büros"
+  "footer_legal_line": "TOR EXPRESS arbeitet unter der administrativen Genehmigung von FRANCISCO JAVIER FERNÁNDEZ CASTILLA."
 }

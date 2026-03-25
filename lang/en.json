@@ -4,113 +4,96 @@
   "hero_title": "Fast, reliable and tailored transport solutions for your business.",
   "hero_subtitle": "National and international service with immediate response and direct communication.",
   "hero_cta_quote": "Request a quote",
-  "hero_cta_provider": "Become a partner",
+  "hero_cta_provider": "Become a provider",
 
   "hero_nat_title": "National Transport",
-  "hero_nat_text": "Full coverage across the country with flexible pickups and on-time deliveries.",
-
+  "hero_nat_text": "Full coverage across the country with flexible pickups and punctual deliveries.",
   "hero_int_title": "International Transport",
   "hero_int_text": "European operations with continuous tracking and transparent communication.",
-
   "hero_urg_title": "Urgent 24/7",
   "hero_urg_text": "When every minute counts, we offer immediate and personalised solutions.",
 
   "services_title": "Services",
-
   "services_nat_title": "National Transport",
   "services_nat_text": "We manage shipments nationwide with speed, punctuality and a close approach.",
-
   "services_int_title": "International Transport",
-  "services_int_text": "Road transport solutions in Europe for full and partial loads.",
-
+  "services_int_text": "Road transport solutions across Europe for full and partial loads.",
   "services_urg_title": "Urgent 24/7",
-  "services_urg_text": "Immediate availability for critical shipments with the fastest delivery time.",
-
+  "services_urg_text": "Immediate availability for critical shipments with the shortest delivery times.",
   "services_group_title": "Distribution & Groupage",
   "services_group_text": "Efficient options for recurring shipments or shared loads.",
-
   "services_custom_title": "Custom Service",
   "services_custom_text": "We design tailored solutions based on cargo type, destination and urgency.",
 
-  "areas_title": "Operation Areas",
-
+  "areas_title": "Areas of operation",
   "areas_cat_title": "Catalonia",
   "areas_cat_text": "Daily pickups and flexible service across the region.",
-
   "areas_iberia_title": "Iberian Peninsula",
   "areas_iberia_text": "Full coverage in Spain and Portugal with trusted partners.",
-
   "areas_eu_title": "Europe",
   "areas_eu_text": "International transport with optimised transit times and maximum reliability.",
 
-  "solutions_title": "Business Solutions",
-
+  "solutions_title": "Business solutions",
   "solutions_industry_title": "Industry",
   "solutions_industry_text": "Safe and punctual transport for sensitive or urgent goods.",
-
   "solutions_ecom_title": "E-commerce & Logistics",
   "solutions_ecom_text": "Fast solutions adapted to demand peaks.",
-
   "solutions_distributors_title": "Distributors",
   "solutions_distributors_text": "Regular routes, scheduled deliveries and optimised load management.",
-
   "solutions_smb_title": "Small Businesses",
   "solutions_smb_text": "Flexible service, no minimums and personalised attention.",
 
   "providers_title": "Join our carrier network",
-  "providers_text": "We are looking for committed professionals to expand our partner network. We offer clear communication, punctual payments and constant routes.",
-  "providers_cta": "Join as a partner",
+  "providers_text": "We are looking for committed professionals to expand our network of collaborators. We offer clear communication, punctual payments and steady routes.",
+  "providers_cta": "Join as a provider",
 
   "about_title": "About us",
-  "about_text": "TOR EXPRESS is focused on offering fast, efficient and tailored transport solutions. We believe in direct communication, punctuality and trust as the foundation of every shipment. Our goal is to become your trusted logistics partner.",
+  "about_text": "TOR EXPRESS is a brand focused on offering fast, efficient and tailored transport solutions. We believe in direct communication, punctuality and trust as the foundation of every shipment. Our goal is to become your trusted logistics partner.",
+  "about_legal": "TOR EXPRESS operates as a logistics management and coordination platform. Transport services are carried out under the administrative authorisation of FRANCISCO JAVIER FERNÁNDEZ CASTILLA, Tax ID 37374832Q. Víctor acts as a commercial agent and operations coordinator.",
+
+  "warehouse_title": "Barcelona Warehouse",
+  "warehouse_text": "We have an operational warehouse in Barcelona offering storage, consolidation and goods management. Monitored facilities, flexible access and 24h opening for urgent operations.",
+  "warehouse_l1": "Storage and consolidation",
+  "warehouse_l2": "24h video surveillance",
+  "warehouse_l3": "Flexible access and urgent operations",
+  "warehouse_l4": "Strategic location in the Barcelona area",
 
   "contact_title": "Contact",
   "contact_text": "Tell us what you need and we will provide the most suitable solution.",
-  "contact_email_label": "Email:",
-  "contact_email24_label": "24h emergency email:",
-
   "contact_form_name": "Name",
   "contact_form_company": "Company",
   "contact_form_phone": "Phone",
   "contact_form_email": "Email",
   "contact_form_message": "Message",
   "contact_form_send": "Send",
+  "contact_map_title": "Office location",
 
   "footer_title": "TOR EXPRESS",
   "footer_desc1": "Urgent transport · Last mile · National and international",
   "footer_desc2": "Operational warehouse in Barcelona",
   "footer_desc3": "Presence in Tarragona",
-
   "footer_contact": "24h Contact",
-
+  "footer_locations": "Locations",
+  "footer_office_title": "Office:",
+  "footer_office_address": "Carrer Bages, 19. 43008 Tarragona",
+  "footer_warehouse_title": "Warehouse:",
+  "footer_warehouse_address": "Carrer Masia de Can Coll, 5. 08620 Sant Vicenç dels Horts",
   "footer_services": "Services",
-  "footer_s1": "24h Urgencies",
+  "footer_s1": "24h emergencies",
   "footer_s2": "Immediate pickups",
   "footer_s3": "Imports and exports",
   "footer_s4": "Last mile",
   "footer_s5": "National and international transport",
   "footer_s6": "Warehouse and consolidation",
-
   "footer_links": "Links",
   "footer_l1": "Home",
   "footer_l2": "Services",
-  "footer_l3": "Operation areas",
+  "footer_l3": "Areas of operation",
   "footer_l4": "Barcelona Warehouse",
   "footer_l5": "Contact",
-
+  "footer_legal_notice": "Legal notice",
+  "footer_privacy": "Privacy policy",
+  "footer_cookies": "Cookies policy",
   "footer_rights": "© 2024 TOR EXPRESS. All rights reserved.",
-
-  "footer_locations": "Locations",
-  "footer_office_title": "Office:",
-  "footer_warehouse_title": "Warehouse:",
-  "footer_office_address": "Carrer Bages, 19. 43008 Tarragona",
-  "footer_warehouse_address": "Carrer Masia de Can Coll, 5. 08620 Sant Vicenç dels Horts",
-
-  "warehouse_title": "Barcelona Warehouse",
-  "warehouse_text": "We have an operational warehouse in Barcelona offering storage, consolidation and goods management. Secured facilities, flexible access and 24h availability for urgent operations.",
-  "warehouse_l1": "Storage and consolidation",
-  "warehouse_l2": "24h video surveillance",
-  "warehouse_l3": "Flexible access and urgent operations",
-  "warehouse_l4": "Strategic location in the Barcelona area",
-  "contact_map_title": "Office location"
+  "footer_legal_line": "TOR EXPRESS operates under the administrative authorisation of FRANCISCO JAVIER FERNÁNDEZ CASTILLA."
 }

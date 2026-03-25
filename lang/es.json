@@ -8,52 +8,38 @@
 
   "hero_nat_title": "Transporte Nacional",
   "hero_nat_text": "Cobertura completa en todo el país con recogidas flexibles y entregas puntuales.",
-
   "hero_int_title": "Transporte Internacional",
   "hero_int_text": "Operativa en Europa con seguimiento continuo y comunicación transparente.",
-
   "hero_urg_title": "Urgentes 24/7",
   "hero_urg_text": "Cuando cada minuto cuenta, ofrecemos soluciones inmediatas y personalizadas.",
 
   "services_title": "Servicios",
-
   "services_nat_title": "Transporte Nacional",
   "services_nat_text": "Gestionamos envíos en todo el territorio con rapidez, puntualidad y trato cercano.",
-
   "services_int_title": "Transporte Internacional",
   "services_int_text": "Soluciones de transporte por carretera en Europa para cargas completas y parciales.",
-
   "services_urg_title": "Urgentes 24/7",
   "services_urg_text": "Disponibilidad inmediata para envíos críticos con entrega en el menor tiempo posible.",
-
   "services_group_title": "Distribución y Grupaje",
   "services_group_text": "Opciones eficientes para envíos recurrentes o cargas compartidas.",
-
   "services_custom_title": "Servicio Personalizado",
   "services_custom_text": "Diseñamos soluciones a medida según el tipo de mercancía, destino y urgencia.",
 
   "areas_title": "Áreas de operación",
-
   "areas_cat_title": "Cataluña",
   "areas_cat_text": "Recogidas diarias y servicio flexible en toda la comunidad.",
-
   "areas_iberia_title": "Península Ibérica",
   "areas_iberia_text": "Cobertura completa en España y Portugal con colaboradores de confianza.",
-
   "areas_eu_title": "Europa",
   "areas_eu_text": "Transporte internacional con tiempos de tránsito ajustados y máxima fiabilidad.",
 
   "solutions_title": "Soluciones para empresas",
-
   "solutions_industry_title": "Industria",
   "solutions_industry_text": "Transporte seguro y puntual para mercancías sensibles o urgentes.",
-
   "solutions_ecom_title": "E-commerce y Logística",
   "solutions_ecom_text": "Soluciones rápidas y adaptadas a picos de demanda.",
-
   "solutions_distributors_title": "Distribuidores",
   "solutions_distributors_text": "Rutas regulares, entregas programadas y gestión optimizada de cargas.",
-
   "solutions_smb_title": "Pequeñas Empresas",
   "solutions_smb_text": "Servicio flexible, sin mínimos y con atención personalizada.",
 
@@ -62,27 +48,36 @@
   "providers_cta": "Unirme como proveedor",
 
   "about_title": "Sobre nosotros",
-  "about_text": "TOR EXPRESS es una empresa orientada a ofrecer soluciones de transporte rápidas, eficientes y adaptadas a cada cliente. Creemos en el trato directo, la puntualidad y la confianza como base de cada envío. Nuestro objetivo es convertirnos en tu socio logístico de referencia.",
+  "about_text": "TOR EXPRESS es una marca orientada a ofrecer soluciones de transporte rápidas, eficientes y adaptadas a cada cliente. Creemos en el trato directo, la puntualidad y la confianza como base de cada envío. Nuestro objetivo es convertirnos en tu socio logístico de referencia.",
+  "about_legal": "TOR EXPRESS actúa como plataforma de gestión y coordinación logística. Los servicios de transporte se realizan bajo la autorización administrativa del titular FRANCISCO JAVIER FERNÁNDEZ CASTILLA, NIF 37374832Q. Víctor actúa como agente comercial y coordinador operativo.",
+
+  "warehouse_title": "Almacén Barcelona",
+  "warehouse_text": "Disponemos de un almacén operativo en Barcelona con servicio de almacenaje, consolidación y gestión de mercancías. Instalaciones vigiladas, acceso flexible y posibilidad de apertura 24h para operativas urgentes.",
+  "warehouse_l1": "Almacenaje y consolidación",
+  "warehouse_l2": "Videovigilancia 24h",
+  "warehouse_l3": "Acceso flexible y operativas urgentes",
+  "warehouse_l4": "Ubicación estratégica en el área de Barcelona",
 
   "contact_title": "Contacto",
-  "contact_text": "Explícanos qué necesitas y te proporcionaremos la solución más adecuada.",
-  "contact_email_label": "Email:",
-  "contact_email24_label": "Email 24h urgencias:",
-
+  "contact_text": "Cuéntanos qué necesitas y te proporcionaremos la solución más adecuada.",
   "contact_form_name": "Nombre",
   "contact_form_company": "Empresa",
   "contact_form_phone": "Teléfono",
   "contact_form_email": "Email",
   "contact_form_message": "Mensaje",
   "contact_form_send": "Enviar",
+  "contact_map_title": "Ubicación de la oficina",
 
   "footer_title": "TOR EXPRESS",
   "footer_desc1": "Transporte urgente · Última milla · Nacional e internacional",
   "footer_desc2": "Almacén operativo en Barcelona",
   "footer_desc3": "Presencia en Tarragona",
-
   "footer_contact": "Contacto 24h",
-
+  "footer_locations": "Ubicaciones",
+  "footer_office_title": "Oficina:",
+  "footer_office_address": "Carrer Bages, 19. 43008 Tarragona",
+  "footer_warehouse_title": "Almacén:",
+  "footer_warehouse_address": "Carrer Masia de Can Coll, 5. 08620 Sant Vicenç dels Horts",
   "footer_services": "Servicios",
   "footer_s1": "Urgencias 24h",
   "footer_s2": "Recogidas inmediatas",
@@ -90,27 +85,15 @@
   "footer_s4": "Última milla",
   "footer_s5": "Transporte nacional e internacional",
   "footer_s6": "Almacén y consolidación",
-
   "footer_links": "Enlaces",
   "footer_l1": "Inicio",
   "footer_l2": "Servicios",
   "footer_l3": "Áreas de operación",
   "footer_l4": "Almacén Barcelona",
   "footer_l5": "Contacto",
-
+  "footer_legal_notice": "Aviso legal",
+  "footer_privacy": "Política de privacidad",
+  "footer_cookies": "Política de cookies",
   "footer_rights": "© 2024 TOR EXPRESS. Todos los derechos reservados.",
-
-  "footer_locations": "Ubicaciones",
-  "footer_office_title": "Oficina:",
-  "footer_warehouse_title": "Almacén:",
-  "footer_office_address": "Carrer Bages, 19. 43008 Tarragona",
-  "footer_warehouse_address": "Carrer Masia de Can Coll, 5. 08620 Sant Vicenç dels Horts",
-
-  "warehouse_title": "Almacén Barcelona",
-  "warehouse_text": "Disponemos de un almacén operativo en Barcelona con servicio de almacenamiento, consolidación y gestión de mercancías. Instalaciones vigiladas, acceso flexible y posibilidad de apertura 24h para operativas urgentes.",
-  "warehouse_l1": "Almacenaje y consolidación",
-  "warehouse_l2": "Videovigilancia 24h",
-  "warehouse_l3": "Acceso flexible y operativas urgentes",
-  "warehouse_l4": "Ubicación estratégica en el área de Barcelona",
-  "contact_map_title": "Ubicación de la oficina"
+  "footer_legal_line": "TOR EXPRESS opera bajo la autorización administrativa del titular FRANCISCO JAVIER FERNÁNDEZ CASTILLA."
 }

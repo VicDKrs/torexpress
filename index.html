@@ -10,6 +10,30 @@
 
 <body>
 
+    <div id="cookie-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background: #222; color: #fff; padding: 15px; display: flex; justify-content: space-between; align-items: center; z-index: 9999;">
+    <span>Aquest lloc web utilitza cookies per millorar l’experiència. Pots acceptar-les o rebutjar-les.</span>
+    <div>
+        <button onclick="acceptCookies()" style="margin-right: 10px;">Acceptar</button>
+        <button onclick="rejectCookies()">Rebutjar</button>
+    </div>
+</div>
+
+<script>
+function acceptCookies() {
+    localStorage.setItem("cookies", "accepted");
+    document.getElementById("cookie-banner").style.display = "none";
+}
+
+function rejectCookies() {
+    localStorage.setItem("cookies", "rejected");
+    document.getElementById("cookie-banner").style.display = "none";
+}
+
+if (localStorage.getItem("cookies")) {
+    document.getElementById("cookie-banner").style.display = "none";
+}
+</script>
+
     <!-- ================= HERO / HOME ================= -->
     <header class="hero">
 
@@ -145,77 +169,27 @@
         </div>
     </section>
 
-    <!-- ================= SOBRE NOSALTRES ================= -->
-    <section id="nosaltres" class="section">
-        <div class="container">
-            <h2 data-key="about_title">Sobre nosaltres</h2>
-            <p data-key="about_text">
-                TOR EXPRESS és una empresa orientada a oferir solucions de transport ràpides, eficients i adaptades a cada client.
-                Creiem en el tracte directe, la puntualitat i la confiança com a base de cada enviament.
-                El nostre objectiu és convertir-nos en el teu soci logístic de referència.
-            </p>
-        </div>
-    </section>
+ <!-- ================= SOBRE NOSALTRES ================= -->
+<section id="nosaltres" class="section">
+    <div class="container">
+        <h2 data-key="about_title">Sobre nosaltres</h2>
 
-        <!-- ================= MAGATZEM ================= -->
-<section id="magatzem" class="section bg-logistica">
-    <div class="container warehouse-card">
-        <h2 data-key="warehouse_title">Magatzem Barcelona</h2>
-        <p data-key="warehouse_text">
-            Disposem d’un magatzem operatiu a Barcelona amb servei d’estocatge, consolidació i gestió de mercaderies.
-            Instal·lacions vigilades, accés flexible i possibilitat d’obertura 24h per operatives urgents.
+        <p data-key="about_text">
+            TOR EXPRESS és una marca orientada a oferir solucions de transport ràpides, eficients i adaptades a cada client.
+            Creiem en el tracte directe, la puntualitat i la confiança com a base de cada enviament.
+            El nostre objectiu és convertir-nos en el teu soci logístic de referència.
         </p>
 
-        <ul class="warehouse-list">
-            <li data-key="warehouse_l1">Estocatge i consolidació</li>
-            <li data-key="warehouse_l2">Videovigilància 24h</li>
-            <li data-key="warehouse_l3">Accés flexible i operatives urgents</li>
-            <li data-key="warehouse_l4">Ubicació estratègica a l’àrea de Barcelona</li>
-        </ul>
+        <p class="legal-text" data-key="about_legal">
+            TOR EXPRESS actua com a plataforma de gestió i coordinació logística.
+            Els serveis de transport són prestats sota l’autorització administrativa del titular 
+            <strong>FRANCISCO JAVIER FERNÁNDEZ CASTILLA</strong>, NIF <strong>37374832Q</strong>.
+            Víctor actua com a agent comercial i coordinador operatiu.
+        </p>
     </div>
 </section>
 
-<!-- ================= CONTACTE ================= -->
-<section id="contacte" class="section section-light">
-    <div class="container">
-        <h2 data-key="contact_title">Contacte</h2>
-        <p data-key="contact_text">Explica’ns què necessites i et proporcionarem la solució més adequada.</p>
-
-        <ul class="contact-info">
-            <li><strong data-key="contact_email_label">Email:</strong> victor@torexpress.net</li>
-            <li><strong data-key="contact_email24_label">Email 24h urgències:</strong> 24h@torexpress.net</li>
-        </ul>
-
-        <form class="contact-form" action="https://formsubmit.co/victor@torexpress.net" method="POST">
-            <input type="text" name="nom" placeholder="Nom" required data-key-placeholder="contact_form_name">
-            <input type="text" name="empresa" placeholder="Empresa" data-key-placeholder="contact_form_company">
-            <input type="tel" name="telefon" placeholder="Telèfon" data-key-placeholder="contact_form_phone">
-            <input type="email" name="email" placeholder="Email" required data-key-placeholder="contact_form_email">
-            <textarea name="missatge" placeholder="Missatge" required data-key-placeholder="contact_form_message"></textarea>
-            <button type="submit" class="btn" data-key="contact_form_send">Enviar</button>
-        </form>
-
-        <!-- MAPA OFICINA -->
-        <div class="map-container" style="margin-top:40px;">
-            <h3 data-key="contact_map_title">Localització de l’oficina</h3>
-            <p><strong>Carrer Bages 19, 43008 Tarragona</strong></p>
-
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d187.8151741948713!2d1.3440638454019231!3d41.133591907547554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xadcb6a0221d31159%3A0x64fb61f4f8b67bf3!2sTOR%20EXPRESS%20-%20TRANSPORT%20SERVICES%20SOLUTIONS!5e0!3m2!1ses!2ses!4v1773270556014!5m2!1ses!2ses" 
-                width="100%" 
-                height="350" 
-                style="border:0; border-radius:10px;" 
-                allowfullscreen="" 
-                loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </div>
-
-    </div>
-</section>
-
-
-  <!-- ================= FOOTER ================= -->
+<!-- ================= FOOTER ================= -->
 <footer class="footer">
     <div class="footer-container">
 
@@ -296,6 +270,11 @@
                 <li><a href="#arees" data-key="footer_l3">Àrees d’operació</a></li>
                 <li><a href="#magatzem" data-key="footer_l4">Magatzem Barcelona</a></li>
                 <li><a href="#contacte" data-key="footer_l5">Contacte</a></li>
+
+                <!-- ENLLAÇOS LEGALS -->
+                <li><a href="avis-legal.html" data-key="footer_legal_notice">Avís legal</a></li>
+                <li><a href="privacitat.html" data-key="footer_privacy">Política de privacitat</a></li>
+                <li><a href="cookies.html" data-key="footer_cookies">Política de cookies</a></li>
             </ul>
         </div>
 
@@ -303,49 +282,8 @@
 
     <div class="footer-bottom">
         <p data-key="footer_rights">© 2024 TOR EXPRESS. Tots els drets reservats.</p>
+        <p class="legal-text" data-key="footer_legal_line">
+            TOR EXPRESS opera sota l’autorització administrativa del titular FRANCISCO JAVIER FERNÁNDEZ CASTILLA.
+        </p>
     </div>
 </footer>
-
-    <!-- ================= SCRIPT IDIOMES ================= -->
-    <script>
-    document.addEventListener("DOMContentLoaded", () => {
-
-      const switchers = document.querySelectorAll(".language-switcher button");
-
-      switchers.forEach(btn => {
-        btn.addEventListener("click", () => {
-          const lang = btn.getAttribute("data-lang");
-          loadLanguage(lang);
-          localStorage.setItem("lang", lang);
-        });
-      });
-
-      function applyTranslations(data) {
-        document.querySelectorAll("[data-key]").forEach(el => {
-          const key = el.getAttribute("data-key");
-          if (data[key]) el.textContent = data[key];
-        });
-
-        document.querySelectorAll("[data-key-placeholder]").forEach(el => {
-          const key = el.getAttribute("data-key-placeholder");
-          if (data[key]) el.placeholder = data[key];
-        });
-      }
-
-      function loadLanguage(lang) {
-        document.documentElement.setAttribute("lang", lang);
-
-        fetch(`lang/${lang}.json`)
-          .then(response => response.json())
-          .then(data => {
-            applyTranslations(data);
-          });
-      }
-
-      const savedLang = localStorage.getItem("lang") || "ca";
-      loadLanguage(savedLang);
-    });
-    </script>
-
-</body>
-</html>

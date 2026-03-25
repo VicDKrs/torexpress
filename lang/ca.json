@@ -8,52 +8,38 @@
 
   "hero_nat_title": "Transport Nacional",
   "hero_nat_text": "Cobertura completa a tot l’Estat amb recollides flexibles i lliuraments puntuals.",
-
   "hero_int_title": "Transport Internacional",
   "hero_int_text": "Operativa a Europa amb seguiment continu i comunicació transparent.",
-
   "hero_urg_title": "Urgents 24/7",
   "hero_urg_text": "Quan cada minut compta, oferim solucions immediates i personalitzades.",
 
   "services_title": "Serveis",
-
   "services_nat_title": "Transport Nacional",
   "services_nat_text": "Gestionem enviaments a tot el territori amb rapidesa, puntualitat i un tracte proper.",
-
   "services_int_title": "Transport Internacional",
   "services_int_text": "Solucions de transport per carretera a Europa per a càrregues completes i parcials.",
-
   "services_urg_title": "Urgents 24/7",
   "services_urg_text": "Disponibilitat immediata per a enviaments crítics amb lliurament en el menor temps possible.",
-
   "services_group_title": "Distribució i Grupatge",
   "services_group_text": "Opcions eficients per a enviaments recurrents o càrregues compartides.",
-
   "services_custom_title": "Servei Personalitzat",
   "services_custom_text": "Dissenyem solucions a mida segons el tipus de mercaderia, destinació i urgència.",
 
   "areas_title": "Àrees d’operació",
-
   "areas_cat_title": "Catalunya",
   "areas_cat_text": "Recollides diàries i servei flexible a tota la comunitat.",
-
   "areas_iberia_title": "Península Ibèrica",
   "areas_iberia_text": "Cobertura completa a Espanya i Portugal amb col·laboradors de confiança.",
-
   "areas_eu_title": "Europa",
   "areas_eu_text": "Transport internacional amb temps de trànsit ajustats i màxima fiabilitat.",
 
   "solutions_title": "Solucions per a empreses",
-
   "solutions_industry_title": "Indústria",
   "solutions_industry_text": "Transport segur i puntual per a mercaderies sensibles o urgents.",
-
   "solutions_ecom_title": "E-commerce i Logística",
   "solutions_ecom_text": "Solucions ràpides i adaptades a pics de demanda.",
-
   "solutions_distributors_title": "Distribuïdors",
   "solutions_distributors_text": "Rutes regulars, lliuraments programats i gestió optimitzada de càrregues.",
-
   "solutions_smb_title": "Petites Empreses",
   "solutions_smb_text": "Servei flexible, sense mínims i amb atenció personalitzada.",
 
@@ -62,49 +48,8 @@
   "providers_cta": "Unir-me com a proveïdor",
 
   "about_title": "Sobre nosaltres",
-  "about_text": "TOR EXPRESS és una empresa orientada a oferir solucions de transport ràpides, eficients i adaptades a cada client. Creiem en el tracte directe, la puntualitat i la confiança com a base de cada enviament. El nostre objectiu és convertir-nos en el teu soci logístic de referència.",
-
-  "contact_title": "Contacte",
-  "contact_text": "Explica’ns què necessites i et proporcionarem la solució més adequada.",
-  "contact_email_label": "Email:",
-  "contact_email24_label": "Email 24h urgències:",
-
-  "contact_form_name": "Nom",
-  "contact_form_company": "Empresa",
-  "contact_form_phone": "Telèfon",
-  "contact_form_email": "Email",
-  "contact_form_message": "Missatge",
-  "contact_form_send": "Enviar",
-
-  "footer_title": "TOR EXPRESS",
-  "footer_desc1": "Transport urgent · Última milla · Nacional i internacional",
-  "footer_desc2": "Magatzem operatiu a Barcelona",
-  "footer_desc3": "Presència a Tarragona",
-
-  "footer_contact": "Contacte 24h",
-
-  "footer_services": "Serveis",
-  "footer_s1": "Urgències 24h",
-  "footer_s2": "Recollides immediates",
-  "footer_s3": "Importacions i exportacions",
-  "footer_s4": "Última milla",
-  "footer_s5": "Transport nacional i internacional",
-  "footer_s6": "Magatzem i consolidació",
-
-  "footer_links": "Enllaços",
-  "footer_l1": "Inici",
-  "footer_l2": "Serveis",
-  "footer_l3": "Àrees d’operació",
-  "footer_l4": "Magatzem Barcelona",
-  "footer_l5": "Contacte",
-
-  "footer_rights": "© 2024 TOR EXPRESS. Tots els drets reservats.",
-
-  "footer_locations": "Ubicacions",
-  "footer_office_title": "Oficina:",
-  "footer_warehouse_title": "Magatzem:",
-  "footer_office_address": "Carrer Bages, 19. 43008 Tarragona",
-  "footer_warehouse_address": "Carrer Masia de Can Coll, 5. 08620 Sant Vicenç dels Horts",
+  "about_text": "TOR EXPRESS és una marca orientada a oferir solucions de transport ràpides, eficients i adaptades a cada client. Creiem en el tracte directe, la puntualitat i la confiança com a base de cada enviament. El nostre objectiu és convertir-nos en el teu soci logístic de referència.",
+  "about_legal": "TOR EXPRESS actua com a plataforma de gestió i coordinació logística. Els serveis de transport són prestats sota l’autorització administrativa del titular FRANCISCO JAVIER FERNÁNDEZ CASTILLA, NIF 37374832Q. Víctor actua com a agent comercial i coordinador operatiu.",
 
   "warehouse_title": "Magatzem Barcelona",
   "warehouse_text": "Disposem d’un magatzem operatiu a Barcelona amb servei d’estocatge, consolidació i gestió de mercaderies. Instal·lacions vigilades, accés flexible i possibilitat d’obertura 24h per operatives urgents.",
@@ -112,5 +57,43 @@
   "warehouse_l2": "Videovigilància 24h",
   "warehouse_l3": "Accés flexible i operatives urgents",
   "warehouse_l4": "Ubicació estratègica a l’àrea de Barcelona",
-  "contact_map_title": "Localització de l’oficina"
+
+  "contact_title": "Contacte",
+  "contact_text": "Explica’ns què necessites i et proporcionarem la solució més adequada.",
+  "contact_form_name": "Nom",
+  "contact_form_company": "Empresa",
+  "contact_form_phone": "Telèfon",
+  "contact_form_email": "Email",
+  "contact_form_message": "Missatge",
+  "contact_form_send": "Enviar",
+  "contact_map_title": "Localització de l’oficina",
+
+  "footer_title": "TOR EXPRESS",
+  "footer_desc1": "Transport urgent · Última milla · Nacional i internacional",
+  "footer_desc2": "Magatzem operatiu a Barcelona",
+  "footer_desc3": "Presència a Tarragona",
+  "footer_contact": "Contacte 24h",
+  "footer_locations": "Ubicacions",
+  "footer_office_title": "Oficina:",
+  "footer_office_address": "Carrer Bages, 19. 43008 Tarragona",
+  "footer_warehouse_title": "Magatzem:",
+  "footer_warehouse_address": "Carrer Masia de Can Coll, 5. 08620 Sant Vicenç dels Horts",
+  "footer_services": "Serveis",
+  "footer_s1": "Urgències 24h",
+  "footer_s2": "Recollides immediates",
+  "footer_s3": "Importacions i exportacions",
+  "footer_s4": "Última milla",
+  "footer_s5": "Transport nacional i internacional",
+  "footer_s6": "Magatzem i consolidació",
+  "footer_links": "Enllaços",
+  "footer_l1": "Inici",
+  "footer_l2": "Serveis",
+  "footer_l3": "Àrees d’operació",
+  "footer_l4": "Magatzem Barcelona",
+  "footer_l5": "Contacte",
+  "footer_legal_notice": "Avís legal",
+  "footer_privacy": "Política de privacitat",
+  "footer_cookies": "Política de cookies",
+  "footer_rights": "© 2024 TOR EXPRESS. Tots els drets reservats.",
+  "footer_legal_line": "TOR EXPRESS opera sota l’autorització administrativa del titular FRANCISCO JAVIER FERNÁNDEZ CASTILLA."
 }
