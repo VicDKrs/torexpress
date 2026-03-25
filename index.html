@@ -19,13 +19,8 @@
     </div>
 
     <div class="cookie-buttons">
-        <button onclick="acceptCookies()" class="cookie-btn accept" data-key="cookies_accept">
-            Acceptar
-        </button>
-
-        <button onclick="rejectCookies()" class="cookie-btn reject" data-key="cookies_reject">
-            Rebutjar
-        </button>
+        <button onclick="acceptCookies()" class="cookie-btn accept" data-key="cookies_accept">Acceptar</button>
+        <button onclick="rejectCookies()" class="cookie-btn reject" data-key="cookies_reject">Rebutjar</button>
     </div>
 </div>
 
@@ -34,12 +29,10 @@ function acceptCookies() {
     localStorage.setItem("cookies", "accepted");
     document.getElementById("cookie-banner").style.display = "none";
 }
-
 function rejectCookies() {
     localStorage.setItem("cookies", "rejected");
     document.getElementById("cookie-banner").style.display = "none";
 }
-
 if (localStorage.getItem("cookies")) {
     document.getElementById("cookie-banner").style.display = "none";
 }
@@ -247,7 +240,7 @@ if (localStorage.getItem("cookies")) {
 </section>
 
 <!-- ================= MAPA ================= -->
-<section id="contacte" class="section section-light">
+<section id="mapa" class="section section-light">
     <div class="container">
         <h2 data-key="contact_title">Contacte</h2>
         <p data-key="contact_text">Explica’ns què necessites i et proporcionarem la solució més adequada.</p>
@@ -293,17 +286,9 @@ if (localStorage.getItem("cookies")) {
         <div class="footer-block">
             <h3 data-key="footer_contact">Contacte 24h</h3>
 
-            <p class="footer-icon-line">
-                Tel: 667 67 24 16
-            </p>
-
-            <p class="footer-icon-line">
-                Email operacions: 24h@torexpress.net
-            </p>
-
-            <p class="footer-icon-line">
-                Email comercial: victor@torexpress.net
-            </p>
+            <p class="footer-icon-line">Tel: 667 67 24 16</p>
+            <p class="footer-icon-line">Email operacions: 24h@torexpress.net</p>
+            <p class="footer-icon-line">Email comercial: victor@torexpress.net</p>
         </div>
 
         <!-- Bloc 3: Ubicacions -->
@@ -344,7 +329,6 @@ if (localStorage.getItem("cookies")) {
                 <li><a href="#magatzem" data-key="footer_l4">Magatzem Barcelona</a></li>
                 <li><a href="#contacte" data-key="footer_l5">Contacte</a></li>
 
-                <!-- Enllaços legals multillenguatge -->
                 <li>
                     <a href="avis-legal.html"
                        data-key="footer_legal_notice"
@@ -370,68 +354,8 @@ if (localStorage.getItem("cookies")) {
                 </li>
             </ul>
         </div>
-
     </div>
-
     <div class="footer-bottom">
-        <p data-key="footer_rights">© 2024 TOR EXPRESS. Tots els drets reservats.</p>
-        <p class="legal-text" data-key="footer_legal_line">
-            TOR EXPRESS opera sota l’autorització administrativa del titular FRANCISCO JAVIER FERNÁNDEZ CASTILLA.
-        </p>
+        <p>© TOR EXPRESS – Tots els drets reservats</p>
     </div>
 </footer>
-<!-- ================= TRADUCCIONS (ARA SÍ, AL FINAL) ================= -->
-<script>
-// Carrega l'idioma guardat o català per defecte
-let currentLang = localStorage.getItem("lang") || "ca";
-loadLanguage(currentLang);
-
-// Funció principal de càrrega d'idioma
-function loadLanguage(lang) {
-    fetch(`lang/${lang}.json`)
-        .then(response => response.json())
-        .then(data => {
-
-            // Traducció de textos normals
-            document.querySelectorAll("[data-key]").forEach(el => {
-                const key = el.getAttribute("data-key");
-                if (data[key]) {
-                    el.textContent = data[key];
-                }
-            });
-
-            // Traducció de placeholders
-            document.querySelectorAll("[data-key-placeholder]").forEach(el => {
-                const key = el.getAttribute("data-key-placeholder");
-                if (data[key]) {
-                    el.placeholder = data[key];
-                }
-            });
-
-            // Traducció d'enllaços (href)
-            document.querySelectorAll("[data-key-href]").forEach(el => {
-                const key = el.getAttribute("data-key-href");
-                if (data[key]) {
-                    el.setAttribute("href", data[key]);
-                }
-            });
-
-            // Desa l'idioma actual
-            currentLang = lang;
-            localStorage.setItem("lang", lang);
-        })
-        .catch(err => console.error("Error carregant idioma:", err));
-}
-
-// Botons d'idioma
-document.addEventListener("DOMContentLoaded", () => {
-    const langButtons = document.querySelectorAll(".lang-btn");
-
-    langButtons.forEach(btn => {
-        btn.addEventListener("click", () => {
-            const lang = btn.getAttribute("data-lang");
-            loadLanguage(lang);
-        });
-    });
-});
-</script>
