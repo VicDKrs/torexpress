@@ -45,198 +45,142 @@ if (localStorage.getItem("cookies")) {
 }
 </script>
 
-<!-- ================= TRADUCCIONS ================= -->
-<script>
-// Carrega l'idioma guardat o català per defecte
-let currentLang = localStorage.getItem("lang") || "ca";
-loadLanguage(currentLang);
+<!-- ================= HERO ================= -->
+<header class="hero">
 
-// Funció principal de càrrega d'idioma
-function loadLanguage(lang) {
-    fetch(`lang/${lang}.json`)
-        .then(response => response.json())
-        .then(data => {
+    <div class="language-switcher">
+        <button class="lang-btn" data-lang="ca">CAT</button>
+        <button class="lang-btn" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="de">DE</button>
+    </div>
 
-            // Traducció de textos normals
-            document.querySelectorAll("[data-key]").forEach(el => {
-                const key = el.getAttribute("data-key");
-                if (data[key]) {
-                    el.textContent = data[key];
-                }
-            });
+    <div class="container">
 
-            // Traducció de placeholders (inputs i textarea)
-            document.querySelectorAll("[data-key-placeholder]").forEach(el => {
-                const key = el.getAttribute("data-key-placeholder");
-                if (data[key]) {
-                    el.placeholder = data[key];
-                }
-            });
+        <img src="img/logo.png" alt="TOR EXPRESS" class="hero-logo">
 
-            // Traducció d'enllaços (href)
-            document.querySelectorAll("[data-key-href]").forEach(el => {
-                const key = el.getAttribute("data-key-href");
-                if (data[key]) {
-                    el.setAttribute("href", data[key]);
-                }
-            });
+        <h1 data-key="hero_title">Solucions de transport ràpides, fiables i adaptades al teu negoci.</h1>
+        <p data-key="hero_subtitle">Servei nacional i internacional amb resposta immediata i atenció directa.</p>
 
-            // Desa l'idioma actual
-            currentLang = lang;
-            localStorage.setItem("lang", lang);
-        })
-        .catch(err => console.error("Error carregant idioma:", err));
-}
-
-// Botons d'idioma
-document.addEventListener("DOMContentLoaded", () => {
-    const langButtons = document.querySelectorAll(".lang-btn");
-
-    langButtons.forEach(btn => {
-        btn.addEventListener("click", () => {
-            const lang = btn.getAttribute("data-lang");
-            loadLanguage(lang);
-        });
-    });
-});
-</script>
-
-    <!-- ================= HERO / HOME ================= -->
-    <header class="hero">
-
-        <div class="language-switcher">
-            <button class="lang-btn" data-lang="ca">CAT</button>
-            <button class="lang-btn" data-lang="es">ES</button>
-            <button class="lang-btn" data-lang="en">EN</button>
-            <button class="lang-btn" data-lang="de">DE</button>
+        <div class="hero-buttons">
+            <a href="#contacte" class="btn" data-key="hero_cta_quote">Solicitar pressupost</a>
+            <a href="#proveidors" class="btn" data-key="hero_cta_provider">Col·laborar com a proveïdor</a>
         </div>
 
-        <div class="container">
-
-            <img src="img/logo.png" alt="TOR EXPRESS" class="hero-logo">
-
-            <h1 data-key="hero_title">Solucions de transport ràpides, fiables i adaptades al teu negoci.</h1>
-            <p data-key="hero_subtitle">Servei nacional i internacional amb resposta immediata i atenció directa.</p>
-
-            <div class="hero-buttons">
-                <a href="#contacte" class="btn" data-key="hero_cta_quote">Solicitar pressupost</a>
-                <a href="#proveidors" class="btn" data-key="hero_cta_provider">Col·laborar com a proveïdor</a>
+        <div class="hero-features">
+            <div class="feature">
+                <h3 data-key="hero_nat_title">Transport Nacional</h3>
+                <p data-key="hero_nat_text">Cobertura completa a tot l’Estat amb recollides flexibles i lliuraments puntuals.</p>
             </div>
-
-            <div class="hero-features">
-                <div class="feature">
-                    <h3 data-key="hero_nat_title">Transport Nacional</h3>
-                    <p data-key="hero_nat_text">Cobertura completa a tot l’Estat amb recollides flexibles i lliuraments puntuals.</p>
-                </div>
-                <div class="feature">
-                    <h3 data-key="hero_int_title">Transport Internacional</h3>
-                    <p data-key="hero_int_text">Operativa a Europa amb seguiment continu i comunicació transparent.</p>
-                </div>
-                <div class="feature">
-                    <h3 data-key="hero_urg_title">Urgents 24/7</h3>
-                    <p data-key="hero_urg_text">Quan cada minut compta, oferim solucions immediates i personalitzades.</p>
-                </div>
+            <div class="feature">
+                <h3 data-key="hero_int_title">Transport Internacional</h3>
+                <p data-key="hero_int_text">Operativa a Europa amb seguiment continu i comunicació transparent.</p>
+            </div>
+            <div class="feature">
+                <h3 data-key="hero_urg_title">Urgents 24/7</h3>
+                <p data-key="hero_urg_text">Quan cada minut compta, oferim solucions immediates i personalitzades.</p>
             </div>
         </div>
-    </header>
+    </div>
+</header>
 
-    <!-- ================= SERVEIS ================= -->
-    <section id="serveis" class="section">
-        <div class="container">
-            <h2 data-key="services_title">Serveis</h2>
+<!-- ================= SERVEIS ================= -->
+<section id="serveis" class="section">
+    <div class="container">
+        <h2 data-key="services_title">Serveis</h2>
 
-            <div class="grid">
-                <div class="card">
-                    <h3 data-key="services_nat_title">Transport Nacional</h3>
-                    <p data-key="services_nat_text">Gestionem enviaments a tot el territori amb rapidesa, puntualitat i un tracte proper.</p>
-                </div>
+        <div class="grid">
+            <div class="card">
+                <h3 data-key="services_nat_title">Transport Nacional</h3>
+                <p data-key="services_nat_text">Gestionem enviaments a tot el territori amb rapidesa, puntualitat i un tracte proper.</p>
+            </div>
 
-                <div class="card">
-                    <h3 data-key="services_int_title">Transport Internacional</h3>
-                    <p data-key="services_int_text">Solucions de transport per carretera a Europa per a càrregues completes i parcials.</p>
-                </div>
+            <div class="card">
+                <h3 data-key="services_int_title">Transport Internacional</h3>
+                <p data-key="services_int_text">Solucions de transport per carretera a Europa per a càrregues completes i parcials.</p>
+            </div>
 
-                <div class="card">
-                    <h3 data-key="services_urg_title">Urgents 24/7</h3>
-                    <p data-key="services_urg_text">Disponibilitat immediata per a enviaments crítics amb lliurament en el menor temps possible.</p>
-                </div>
+            <div class="card">
+                <h3 data-key="services_urg_title">Urgents 24/7</h3>
+                <p data-key="services_urg_text">Disponibilitat immediata per a enviaments crítics amb lliurament en el menor temps possible.</p>
+            </div>
 
-                <div class="card">
-                    <h3 data-key="services_group_title">Distribució i Grupatge</h3>
-                    <p data-key="services_group_text">Opcions eficients per a enviaments recurrents o càrregues compartides.</p>
-                </div>
+            <div class="card">
+                <h3 data-key="services_group_title">Distribució i Grupatge</h3>
+                <p data-key="services_group_text">Opcions eficients per a enviaments recurrents o càrregues compartides.</p>
+            </div>
 
-                <div class="card">
-                    <h3 data-key="services_custom_title">Servei Personalitzat</h3>
-                    <p data-key="services_custom_text">Dissenyem solucions a mida segons el tipus de mercaderia, destinació i urgència.</p>
-                </div>
+            <div class="card">
+                <h3 data-key="services_custom_title">Servei Personalitzat</h3>
+                <p data-key="services_custom_text">Dissenyem solucions a mida segons el tipus de mercaderia, destinació i urgència.</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- ================= ÀREES D’OPERACIÓ ================= -->
-    <section id="arees" class="section section-light">
-        <div class="container">
-            <h2 data-key="areas_title">Àrees d’operació</h2>
+<!-- ================= ÀREES ================= -->
+<section id="arees" class="section section-light">
+    <div class="container">
+        <h2 data-key="areas_title">Àrees d’operació</h2>
 
-            <div class="grid">
-                <div class="card">
-                    <h3 data-key="areas_cat_title">Catalunya</h3>
-                    <p data-key="areas_cat_text">Recollides diàries i servei flexible a tota la comunitat.</p>
-                </div>
+        <div class="grid">
+            <div class="card">
+                <h3 data-key="areas_cat_title">Catalunya</h3>
+                <p data-key="areas_cat_text">Recollides diàries i servei flexible a tota la comunitat.</p>
+            </div>
 
-                <div class="card">
-                    <h3 data-key="areas_iberia_title">Península Ibèrica</h3>
-                    <p data-key="areas_iberia_text">Cobertura completa a Espanya i Portugal amb col·laboradors de confiança.</p>
-                </div>
+            <div class="card">
+                <h3 data-key="areas_iberia_title">Península Ibèrica</h3>
+                <p data-key="areas_iberia_text">Cobertura completa a Espanya i Portugal amb col·laboradors de confiança.</p>
+            </div>
 
-                <div class="card">
-                    <h3 data-key="areas_eu_title">Europa</h3>
-                    <p data-key="areas_eu_text">Transport internacional amb temps de trànsit ajustats i màxima fiabilitat.</p>
-                </div>
+            <div class="card">
+                <h3 data-key="areas_eu_title">Europa</h3>
+                <p data-key="areas_eu_text">Transport internacional amb temps de trànsit ajustats i màxima fiabilitat.</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- ================= SOLUCIONS PER A EMPRESES ================= -->
-    <section id="solucions" class="section">
-        <div class="container">
-            <h2 data-key="solutions_title">Solucions per a empreses</h2>
+<!-- ================= SOLUCIONS ================= -->
+<section id="solucions" class="section">
+    <div class="container">
+        <h2 data-key="solutions_title">Solucions per a empreses</h2>
 
-            <div class="grid">
-                <div class="card">
-                    <h3 data-key="solutions_industry_title">Indústria</h3>
-                    <p data-key="solutions_industry_text">Transport segur i puntual per a mercaderies sensibles o urgents.</p>
-                </div>
+        <div class="grid">
+            <div class="card">
+                <h3 data-key="solutions_industry_title">Indústria</h3>
+                <p data-key="solutions_industry_text">Transport segur i puntual per a mercaderies sensibles o urgents.</p>
+            </div>
 
-                <div class="card">
-                    <h3 data-key="solutions_ecom_title">E-commerce i Logística</h3>
-                    <p data-key="solutions_ecom_text">Solucions ràpides i adaptades a pics de demanda.</p>
-                </div>
+            <div class="card">
+                <h3 data-key="solutions_ecom_title">E-commerce i Logística</h3>
+                <p data-key="solutions_ecom_text">Solucions ràpides i adaptades a pics de demanda.</p>
+            </div>
 
-                <div class="card">
-                    <h3 data-key="solutions_distributors_title">Distribuïdors</h3>
-                    <p data-key="solutions_distributors_text">Rutes regulars, lliuraments programats i gestió optimitzada de càrregues.</p>
-                </div>
+            <div class="card">
+                <h3 data-key="solutions_distributors_title">Distribuïdors</h3>
+                <p data-key="solutions_distributors_text">Rutes regulars, lliuraments programats i gestió optimitzada de càrregues.</p>
+            </div>
 
-                <div class="card">
-                    <h3 data-key="solutions_smb_title">Petites Empreses</h3>
-                    <p data-key="solutions_smb_text">Servei flexible, sense mínims i amb atenció personalitzada.</p>
-                </div>
+            <div class="card">
+                <h3 data-key="solutions_smb_title">Petites Empreses</h3>
+                <p data-key="solutions_smb_text">Servei flexible, sense mínims i amb atenció personalitzada.</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- ================= PROVEÏDORS ================= -->
-    <section id="proveidors" class="section section-light">
-        <div class="container">
-            <h2 data-key="providers_title">Uneix-te a la nostra xarxa de transportistes</h2>
-            <p data-key="providers_text">Busquem professionals compromesos per ampliar la nostra xarxa de col·laboradors. Oferim comunicació clara, pagaments puntuals i rutes constants.</p>
-            <a href="#contacte" class="btn" data-key="providers_cta">Unir-me com a proveïdor</a>
-        </div>
-    </section>
+<!-- ================= PROVEÏDORS ================= -->
+<section id="proveidors" class="section section-light">
+    <div class="container">
+        <h2 data-key="providers_title">Uneix-te a la nostra xarxa de transportistes</h2>
+        <p data-key="providers_text">Busquem professionals compromesos per ampliar la nostra xarxa de col·laboradors. Oferim comunicació clara, pagaments puntuals i rutes constants.</p>
+        <a href="#contacte" class="btn" data-key="providers_cta">Unir-me com a proveïdor</a>
+    </div>
+</section>
 
- <!-- ================= SOBRE NOSALTRES ================= -->
+<!-- ================= SOBRE NOSALTRES ================= -->
 <section id="nosaltres" class="section">
     <div class="container">
         <h2 data-key="about_title">Sobre nosaltres</h2>
@@ -255,6 +199,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </p>
     </div>
 </section>
+
 <!-- ================= CONTACTE ================= -->
 <section id="contacte" class="section section-light">
     <div class="container">
@@ -274,13 +219,11 @@ document.addEventListener("DOMContentLoaded", () => {
             <input type="email" name="email" placeholder="Email" required data-key-placeholder="contact_form_email">
             <textarea name="missatge" placeholder="Missatge" required data-key-placeholder="contact_form_message"></textarea>
 
-            <!-- RGPD: Acceptació obligatòria -->
             <label class="checkbox privacy-check">
                 <input type="checkbox" required>
                 <span data-key="privacy_accept">Accepto la política de privacitat</span>
             </label>
 
-            <!-- Enllaç a la política de privacitat (multillenguatge) -->
             <p class="privacy-link">
                 <a href="privacitat.html"
                    target="_blank"
@@ -291,12 +234,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 </a>
             </p>
 
-            <!-- Text informatiu RGPD -->
             <p class="privacy-note" data-key="privacy_note">
                 Les teves dades només s’utilitzaran per respondre la teva consulta. No es guardaran ni es cediran a tercers.
             </p>
 
-            <!-- Anti-spam de FormSubmit -->
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_template" value="table">
 
@@ -304,7 +245,8 @@ document.addEventListener("DOMContentLoaded", () => {
         </form>
     </div>
 </section>
-<!-- ================= MAPA OFICINA ================= -->
+
+<!-- ================= MAPA ================= -->
 <section id="contacte" class="section section-light">
     <div class="container">
         <h2 data-key="contact_title">Contacte</h2>
@@ -339,7 +281,6 @@ document.addEventListener("DOMContentLoaded", () => {
 <footer class="footer">
     <div class="footer-container">
 
-        <!-- Bloc 1: Empresa -->
         <div class="footer-block">
             <h3 data-key="footer_title">TOR EXPRESS</h3>
             <p data-key="footer_desc1">Transport urgent · Última milla · Nacional i internacional</p>
@@ -347,67 +288,36 @@ document.addEventListener("DOMContentLoaded", () => {
             <p data-key="footer_desc3">Presència a Tarragona</p>
         </div>
 
-        <!-- Bloc 2: Contacte -->
         <div class="footer-block">
             <h3 data-key="footer_contact">Contacte 24h</h3>
 
             <p class="footer-icon-line">
-                <svg class="footer-icon" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M6.6 10.8c1.2 2.4 3.2 4.4 5.6 5.6l1.9-1.9c.3-.3.8-.4 1.2-.3 1.3.4 2.7.6 4.1.6.7 0 1.3.6 1.3 1.3V21c0 .7-.6 1.3-1.3 1.3C9.9 22.3 1.7 14.1 1.7 3.3 1.7 2.6 2.3 2 3 2h3.3c.7 0 1.3.6 1.3 1.3 0 1.4.2 2.8.6 4.1.1.4 0 .9-.3 1.2l-1.9 1.9z"/>
-                </svg>
                 Tel: 667 67 24 16
             </p>
 
             <p class="footer-icon-line">
-                <svg class="footer-icon" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M12 13.5L2 6h20l-10 7.5zm0 2.3L2 8.3V18h20V8.3l-10 7.5z"/>
-                </svg>
                 Email operacions: 24h@torexpress.net
             </p>
 
             <p class="footer-icon-line">
-                <svg class="footer-icon" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M12 13.5L2 6h20l-10 7.5zm0 2.3L2 8.3V18h20V8.3l-10 7.5z"/>
-                </svg>
                 Email comercial: victor@torexpress.net
             </p>
         </div>
 
-        <!-- Bloc 3: Ubicacions -->
         <div class="footer-block">
             <h3 data-key="footer_locations">Ubicacions</h3>
 
             <p class="footer-icon-line">
-                <svg class="footer-icon" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/>
-                </svg>
                 <strong data-key="footer_office_title">Oficina:</strong><br>
                 <span data-key="footer_office_address">Carrer Bages, 19. 43008 Tarragona</span>
             </p>
 
             <p class="footer-icon-line">
-                <svg class="footer-icon" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/>
-                </svg>
                 <strong data-key="footer_warehouse_title">Magatzem:</strong><br>
                 <span data-key="footer_warehouse_address">Carrer Masia de Can Coll, 5. 08620 Sant Vicenç dels Horts</span>
             </p>
         </div>
 
-        <!-- Bloc 4: Serveis -->
-        <div class="footer-block">
-            <h3 data-key="footer_services">Serveis</h3>
-            <ul>
-                <li data-key="footer_s1">Urgències 24h</li>
-                <li data-key="footer_s2">Recollides immediates</li>
-                <li data-key="footer_s3">Importacions i exportacions</li>
-                <li data-key="footer_s4">Última milla</li>
-                <li data-key="footer_s5">Transport nacional i internacional</li>
-                <li data-key="footer_s6">Magatzem i consolidació</li>
-            </ul>
-        </div>
-
-        <!-- Bloc 5: Enllaços -->
         <div class="footer-block">
             <h3 data-key="footer_links">Enllaços</h3>
             <ul>
@@ -417,30 +327,29 @@ document.addEventListener("DOMContentLoaded", () => {
                 <li><a href="#magatzem" data-key="footer_l4">Magatzem Barcelona</a></li>
                 <li><a href="#contacte" data-key="footer_l5">Contacte</a></li>
 
-               <!-- ENLLAÇOS LEGALS -->
-<li>
-    <a href="avis-legal.html"
-       data-key="footer_legal_notice"
-       data-key-href="legal_notice_url">
-       Avís legal
-    </a>
-</li>
+                <li>
+                    <a href="avis-legal.html"
+                       data-key="footer_legal_notice"
+                       data-key-href="legal_notice_url">
+                       Avís legal
+                    </a>
+                </li>
 
-<li>
-    <a href="privacitat.html"
-       data-key="footer_privacy"
-       data-key-href="privacy_link_url">
-       Política de privacitat
-    </a>
-</li>
+                <li>
+                    <a href="privacitat.html"
+                       data-key="footer_privacy"
+                       data-key-href="privacy_link_url">
+                       Política de privacitat
+                    </a>
+                </li>
 
-<li>
-    <a href="cookies.html"
-       data-key="footer_cookies"
-       data-key-href="cookies_url">
-       Política de cookies
-    </a>
-</li>
+                <li>
+                    <a href="cookies.html"
+                       data-key="footer_cookies"
+                       data-key-href="cookies_url">
+                       Política de cookies
+                    </a>
+                </li>
             </ul>
         </div>
 
@@ -453,3 +362,58 @@ document.addEventListener("DOMContentLoaded", () => {
         </p>
     </div>
 </footer>
+<!-- ================= TRADUCCIONS (ARA SÍ, AL FINAL) ================= -->
+<script>
+// Carrega l'idioma guardat o català per defecte
+let currentLang = localStorage.getItem("lang") || "ca";
+loadLanguage(currentLang);
+
+// Funció principal de càrrega d'idioma
+function loadLanguage(lang) {
+    fetch(`lang/${lang}.json`)
+        .then(response => response.json())
+        .then(data => {
+
+            // Traducció de textos normals
+            document.querySelectorAll("[data-key]").forEach(el => {
+                const key = el.getAttribute("data-key");
+                if (data[key]) {
+                    el.textContent = data[key];
+                }
+            });
+
+            // Traducció de placeholders
+            document.querySelectorAll("[data-key-placeholder]").forEach(el => {
+                const key = el.getAttribute("data-key-placeholder");
+                if (data[key]) {
+                    el.placeholder = data[key];
+                }
+            });
+
+            // Traducció d'enllaços (href)
+            document.querySelectorAll("[data-key-href]").forEach(el => {
+                const key = el.getAttribute("data-key-href");
+                if (data[key]) {
+                    el.setAttribute("href", data[key]);
+                }
+            });
+
+            // Desa l'idioma actual
+            currentLang = lang;
+            localStorage.setItem("lang", lang);
+        })
+        .catch(err => console.error("Error carregant idioma:", err));
+}
+
+// Botons d'idioma
+document.addEventListener("DOMContentLoaded", () => {
+    const langButtons = document.querySelectorAll(".lang-btn");
+
+    langButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+            const lang = btn.getAttribute("data-lang");
+            loadLanguage(lang);
+        });
+    });
+});
+</script>
