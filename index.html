@@ -45,7 +45,7 @@ if (localStorage.getItem("cookies")) {
 }
 </script>
 
-   <!-- ================= TRADUCCIONS ================= -->
+<!-- ================= TRADUCCIONS ================= -->
 <script>
 // Carrega l'idioma guardat o català per defecte
 let currentLang = localStorage.getItem("lang") || "ca";
@@ -73,7 +73,15 @@ function loadLanguage(lang) {
                 }
             });
 
-            // Actualitza l'idioma actual
+            // Traducció d'enllaços (href)
+            document.querySelectorAll("[data-key-href]").forEach(el => {
+                const key = el.getAttribute("data-key-href");
+                if (data[key]) {
+                    el.setAttribute("href", data[key]);
+                }
+            });
+
+            // Desa l'idioma actual
             currentLang = lang;
             localStorage.setItem("lang", lang);
         })
@@ -272,9 +280,15 @@ document.addEventListener("DOMContentLoaded", () => {
                 <span data-key="privacy_accept">Accepto la política de privacitat</span>
             </label>
 
-            <!-- Enllaç a la política de privacitat -->
+            <!-- Enllaç a la política de privacitat (multillenguatge) -->
             <p class="privacy-link">
-                <a href="privacitat.html" target="_blank" data-key="privacy_link">Veure política de privacitat</a>
+                <a href="privacitat.html"
+                   target="_blank"
+                   class="legal-button"
+                   data-key="privacy_link"
+                   data-key-href="privacy_link_url">
+                    Veure política de privacitat
+                </a>
             </p>
 
             <!-- Text informatiu RGPD -->
