@@ -10,38 +10,76 @@
 
 <body>
 
+    <!-- ================= COOKIES ================= -->
     <div id="cookie-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background: #222; color: #fff; padding: 15px; display: flex; justify-content: space-between; align-items: center; z-index: 9999;">
-    <span>Aquest lloc web utilitza cookies per millorar l’experiència. Pots acceptar-les o rebutjar-les.</span>
-    <div>
-        <button onclick="acceptCookies()" style="margin-right: 10px;">Acceptar</button>
-        <button onclick="rejectCookies()">Rebutjar</button>
+        <span>Aquest lloc web utilitza cookies per millorar l’experiència. Pots acceptar-les o rebutjar-les.</span>
+        <div>
+            <button onclick="acceptCookies()" style="margin-right: 10px;">Acceptar</button>
+            <button onclick="rejectCookies()">Rebutjar</button>
+        </div>
     </div>
-</div>
 
-<script>
-function acceptCookies() {
-    localStorage.setItem("cookies", "accepted");
-    document.getElementById("cookie-banner").style.display = "none";
-}
+    <script>
+    function acceptCookies() {
+        localStorage.setItem("cookies", "accepted");
+        document.getElementById("cookie-banner").style.display = "none";
+    }
 
-function rejectCookies() {
-    localStorage.setItem("cookies", "rejected");
-    document.getElementById("cookie-banner").style.display = "none";
-}
+    function rejectCookies() {
+        localStorage.setItem("cookies", "rejected");
+        document.getElementById("cookie-banner").style.display = "none";
+    }
 
-if (localStorage.getItem("cookies")) {
-    document.getElementById("cookie-banner").style.display = "none";
-}
-</script>
+    if (localStorage.getItem("cookies")) {
+        document.getElementById("cookie-banner").style.display = "none";
+    }
+    </script>
+
+    <!-- ================= TRADUCCIONS ================= -->
+    <script>
+    // Carrega l'idioma guardat o català per defecte
+    let currentLang = localStorage.getItem("lang") || "ca";
+    loadLanguage(currentLang);
+
+    // Funció principal de càrrega d'idioma
+    function loadLanguage(lang) {
+        fetch(`lang/${lang}.json`)
+            .then(response => response.json())
+            .then(data => {
+                document.querySelectorAll("[data-key]").forEach(el => {
+                    const key = el.getAttribute("data-key");
+                    if (data[key]) {
+                        el.textContent = data[key];
+                    }
+                });
+
+                currentLang = lang;
+                localStorage.setItem("lang", lang);
+            })
+            .catch(err => console.error("Error carregant idioma:", err));
+    }
+
+    // Botons d'idioma
+    document.addEventListener("DOMContentLoaded", () => {
+        const langButtons = document.querySelectorAll(".lang-btn");
+
+        langButtons.forEach(btn => {
+            btn.addEventListener("click", () => {
+                const lang = btn.getAttribute("data-lang");
+                loadLanguage(lang);
+            });
+        });
+    });
+    </script>
 
     <!-- ================= HERO / HOME ================= -->
     <header class="hero">
 
         <div class="language-switcher">
-            <button data-lang="ca">CAT</button>
-            <button data-lang="es">ES</button>
-            <button data-lang="en">EN</button>
-            <button data-lang="de">DE</button>
+            <button class="lang-btn" data-lang="ca">CAT</button>
+            <button class="lang-btn" data-lang="es">ES</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="de">DE</button>
         </div>
 
         <div class="container">
