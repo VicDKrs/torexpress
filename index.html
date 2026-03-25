@@ -35,42 +35,53 @@
     }
     </script>
 
-    <!-- ================= TRADUCCIONS ================= -->
-    <script>
-    // Carrega l'idioma guardat o català per defecte
-    let currentLang = localStorage.getItem("lang") || "ca";
-    loadLanguage(currentLang);
+   <!-- ================= TRADUCCIONS ================= -->
+<script>
+// Carrega l'idioma guardat o català per defecte
+let currentLang = localStorage.getItem("lang") || "ca";
+loadLanguage(currentLang);
 
-    // Funció principal de càrrega d'idioma
-    function loadLanguage(lang) {
-        fetch(`lang/${lang}.json`)
-            .then(response => response.json())
-            .then(data => {
-                document.querySelectorAll("[data-key]").forEach(el => {
-                    const key = el.getAttribute("data-key");
-                    if (data[key]) {
-                        el.textContent = data[key];
-                    }
-                });
+// Funció principal de càrrega d'idioma
+function loadLanguage(lang) {
+    fetch(`lang/${lang}.json`)
+        .then(response => response.json())
+        .then(data => {
 
-                currentLang = lang;
-                localStorage.setItem("lang", lang);
-            })
-            .catch(err => console.error("Error carregant idioma:", err));
-    }
-
-    // Botons d'idioma
-    document.addEventListener("DOMContentLoaded", () => {
-        const langButtons = document.querySelectorAll(".lang-btn");
-
-        langButtons.forEach(btn => {
-            btn.addEventListener("click", () => {
-                const lang = btn.getAttribute("data-lang");
-                loadLanguage(lang);
+            // Traducció de textos normals
+            document.querySelectorAll("[data-key]").forEach(el => {
+                const key = el.getAttribute("data-key");
+                if (data[key]) {
+                    el.textContent = data[key];
+                }
             });
+
+            // Traducció de placeholders (inputs i textarea)
+            document.querySelectorAll("[data-key-placeholder]").forEach(el => {
+                const key = el.getAttribute("data-key-placeholder");
+                if (data[key]) {
+                    el.placeholder = data[key];
+                }
+            });
+
+            // Actualitza l'idioma actual
+            currentLang = lang;
+            localStorage.setItem("lang", lang);
+        })
+        .catch(err => console.error("Error carregant idioma:", err));
+}
+
+// Botons d'idioma
+document.addEventListener("DOMContentLoaded", () => {
+    const langButtons = document.querySelectorAll(".lang-btn");
+
+    langButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+            const lang = btn.getAttribute("data-lang");
+            loadLanguage(lang);
         });
     });
-    </script>
+});
+</script>
 
     <!-- ================= HERO / HOME ================= -->
     <header class="hero">
@@ -226,7 +237,33 @@
         </p>
     </div>
 </section>
+<!-- ================= CONTACTE ================= -->
+<section id="contacte" class="section section-light">
+    <div class="container">
+        <h2 data-key="contact_title">Contacte</h2>
+        <p data-key="contact_text">Explica’ns què necessites i et proporcionarem la solució més adequada.</p>
 
+        <ul class="contact-info">
+            <li><strong data-key="contact_email_label">Email:</strong> victor@torexpress.net</li>
+            <li><strong data-key="contact_email24_label">Email 24h urgències:</strong> 24h@torexpress.net</li>
+        </ul>
+
+        <form class="contact-form" action="https://formsubmit.co/victor@torexpress.net" method="POST">
+
+            <input type="text" name="nom" placeholder="Nom" required data-key-placeholder="contact_form_name">
+            <input type="text" name="empresa" placeholder="Empresa" data-key-placeholder="contact_form_company">
+            <input type="tel" name="telefon" placeholder="Telèfon" data-key-placeholder="contact_form_phone">
+            <input type="email" name="email" placeholder="Email" required data-key-placeholder="contact_form_email">
+            <textarea name="missatge" placeholder="Missatge" required data-key-placeholder="contact_form_message"></textarea>
+
+            <!-- Anti-spam de FormSubmit -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+
+            <button type="submit" class="btn" data-key="contact_form_send">Enviar</button>
+        </form>
+    </div>
+</section>
 <!-- ================= MAPA OFICINA ================= -->
 <section id="contacte" class="section section-light">
     <div class="container">
